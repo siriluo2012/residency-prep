@@ -1,0 +1,33 @@
+# deps
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# builds
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# env
+.env
+.env.*
+!.env.example
+
+# pipeline caches (raw downloads). Staged JSONL is committed so reviewers
+# can load the QBank without re-running ingest.
+pipeline/data/
+.pgdata/
+
+# misc
+.DS_Store
+*.log
+coverage/
+playwright-report/
+test-results/

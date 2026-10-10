@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/review.json",
+  "title": "Review",
+  "$defs": {
+    "ItemType": { "type": "string", "enum": ["question", "flashcard", "animation", "oet_task"] },
+    "ReviewState": { "type": "string", "enum": ["pending", "in_progress", "approved", "changes_requested", "rejected"] },
+    "Decision": { "type": "string", "enum": ["approve", "request_changes", "reject"] },
+    "RejectionReason": {
+      "type": "string",
+      "enum": ["clinically_incorrect", "outdated_guideline", "ambiguous_stem", "multiple_correct", "not_original", "off_blueprint", "poor_distractors", "formatting", "other"]
+    },
+    "ReviewVote": {
+      "type": "object",
+      "required": ["queue_id", "reviewer_id", "decision"],
+      "properties": {
+        "queue_id": { "type": "string" },
+        "reviewer_id": { "type": "string" },
+        "decision": { "$ref": "#/$defs/Decision" },
+        "reasons": { "type": "array", "items": { "$ref": "#/$defs/RejectionReason" } },
+        "comment": { "type": "string" },
+        "edited_payload": { "type": ["object", "null"], "description": "Full edited item if the reviewer changed it" },
+        "time_spent_s": { "type": "integer" }
+      }
+    }
+  }
+}

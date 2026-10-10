@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/oet.json",
+  "title": "OetTask",
+  "type": "object",
+  "required": [
+    "id",
+    "subtest",
+    "title",
+    "payload",
+    "provenance",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "subtest": {
+      "type": "string",
+      "enum": [
+        "reading",
+        "listening",
+        "writing",
+        "speaking"
+      ]
+    },
+    "part": {
+      "type": "string",
+      "description": "e.g. A, B, C for reading/listening"
+    },
+    "title": {
+      "type": "string"
+    },
+    "payload": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/ReadingListeningPayload"
+        },
+        {
+          "$ref": "#/$defs/WritingPayload"
+        },
+        {
+          "$ref": "#/$defs/SpeakingPayload"
+        }
+      ]
+    },
+    "provenance": {
+      "$ref": "common.json#/$defs/Provenance"
+    },
+    "status": {
+      "$ref": "common.json#/$defs/ContentStatus"
+    },
+    "tier": {
+      "$ref": "common.json#/$defs/Tier"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "$defs": {
+    "ReadingListeningPayload": {
+      "type": "object",
+      "required": [
+        "kind",
+        "passage",
+        "items"
+      ],
+      "properties": {
+        "kind": {
+          "const": "comprehension"
+        },
+        "passage": {
+          "type": "string",
+          "description": "Text passage (reading) or transcript (listening)"
+        },
+        "audio_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "prompt",
+              "answer"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "mcq",
+                  "gap_fill",
+                  "short_answer",
+                  "matching"
+                ]
+              },
+              "prompt": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "answer": {
+                "type": "string"
+              },
+              "accepted_answers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "WritingPayload": {
+      "type": "object",
+      "required": [
+        "kind",
+        "case_notes",
+        "task_instruction",
+        "recipient"
+      ],
+      "properties": {
+        "kind": {
+          "const": "referral_letter"
+        },
+        "case_notes": {
+          "type": "string"
+        },
+        "task_instruction": {
+          "type": "string"
+        },
+        "recipient": {
+          "type": "string"
+        },
+        "word_limit": {
+          "type": "integer",
+          "default": 200
+        },
+        "model_answer": {
+          "type": "string"
+        },
+        "key_content_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "SpeakingPayload": {
+      "type": "object",
+      "required": [
+        "kind",
+        "setting",
+        "candidate_card",
+        "interlocutor_card"
+      ],
+      "properties": {
+        "kind": {
+          "const": "role_play"
+        },
+        "setting": {
+          "type": "string"
+        },
+        "candidate_card": {
+          "type": "string"
+        },
+        "interlocutor_card": {
+          "type": "string"
+        },
+        "model_dialogue": {
+          "type": "string"
+        },
+        "assessment_focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

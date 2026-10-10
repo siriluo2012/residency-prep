@@ -1,0 +1,27 @@
+{
+  "name": "@rp/schema",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./animation-contract": "./src/animation-contract.ts",
+    "./animation-frame": {
+      "types": "./src/animation-frame.d.ts",
+      "default": "./src/animation-frame.mjs"
+    },
+    "./schemas/*": "./schemas/*"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-examples.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "dependencies": {
+    "sucrase": "^3.35.1"
+  }
+}

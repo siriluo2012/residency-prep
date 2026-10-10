@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/common.json",
+  "title": "Common definitions",
+  "$defs": {
+    "ExamId": {
+      "type": "string",
+      "enum": ["usmle-step1", "usmle-step2ck", "oet-medicine", "ecfmg"]
+    },
+    "Tier": { "type": "string", "enum": ["free", "pro"], "default": "free" },
+    "ContentStatus": {
+      "type": "string",
+      "enum": ["draft", "in_review", "changes_requested", "approved", "rejected", "published", "retired"]
+    },
+    "SourceId": {
+      "type": "string",
+      "enum": ["medqa", "cohort", "claude", "human", "official"]
+    },
+    "LicenseId": {
+      "description": "Fail-closed allow-list. Items whose license is not one of these are never publishable.",
+      "type": "string",
+      "enum": ["MIT", "CC-BY-4.0", "original", "public-facts"]
+    },
+    "Difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "Provenance": {
+      "type": "object",
+      "required": ["source", "license"],
+      "properties": {
+        "source": { "$ref": "#/$defs/SourceId" },
+        "source_ref": { "type": "string", "description": "Dataset row id, repo path, URL, or generation batch id" },
+        "license": { "$ref": "#/$defs/LicenseId" },
+        "attribution": { "type": "string" },
+        "generator_model": { "type": "string" },
+        "generation_batch": { "type": "string" },
+        "ai_drafted": { "type": "boolean", "default": false }
+      },
+      "additionalProperties": false
+    },
+    "Media": {
+      "type": "object",
+      "required": ["kind", "url"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["image", "svg", "audio", "video", "animation"] },
+        "url": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" },
+        "license": { "$ref": "#/$defs/LicenseId" },
+        "attribution": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "Timestamps": {
+      "type": "object",
+      "properties": {
+        "created_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "published_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}

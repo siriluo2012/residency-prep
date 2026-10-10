@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/question.json",
+  "title": "Question",
+  "description": "A single-best-answer clinical vignette with per-option explanations.",
+  "type": "object",
+  "required": [
+    "id",
+    "exam_id",
+    "topic_id",
+    "stem",
+    "options",
+    "answer_label",
+    "explanation",
+    "difficulty",
+    "provenance",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "UUID or stable slug id"
+    },
+    "exam_id": {
+      "$ref": "common.json#/$defs/ExamId"
+    },
+    "topic_id": {
+      "type": "string",
+      "description": "Primary topic slug from the exam taxonomy"
+    },
+    "topic_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Secondary topics"
+    },
+    "question_type": {
+      "type": "string",
+      "enum": [
+        "diagnosis",
+        "mechanism",
+        "next_step",
+        "pharmacology",
+        "biostatistics",
+        "ethics",
+        "pathophysiology",
+        "anatomy",
+        "microbiology",
+        "other"
+      ]
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 20
+    },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "text",
+          "is_correct",
+          "explanation"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^[A-F]$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "is_correct": {
+            "type": "boolean"
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 10
+          },
+          "misconception": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "answer_label": {
+      "type": "string",
+      "pattern": "^[A-F]$"
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 40,
+      "description": "Overall teaching explanation"
+    },
+    "teaching_point": {
+      "type": "string",
+      "description": "One-sentence takeaway"
+    },
+    "lab_values_used": {
+      "type": "boolean",
+      "default": false
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/Media"
+      }
+    },
+    "animation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "animation_worthiness": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "0 = static text suffices, 5 = concept is dynamic/spatial and benefits strongly from animation"
+    },
+    "difficulty": {
+      "$ref": "common.json#/$defs/Difficulty"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "$ref": "common.json#/$defs/Provenance"
+    },
+    "status": {
+      "$ref": "common.json#/$defs/ContentStatus"
+    },
+    "tier": {
+      "$ref": "common.json#/$defs/Tier"
+    },
+    "qa": {
+      "type": "object",
+      "description": "Filled by pipeline/qa",
+      "properties": {
+        "schema_ok": {
+          "type": "boolean"
+        },
+        "max_similarity": {
+          "type": "number"
+        },
+        "nearest_source_ref": {
+          "type": "string"
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "readability_grade": {
+          "type": "number"
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,3372 @@
+{
+  "source": "usmle",
+  "crawled_at": "2026-10-09T03:24:07.469336+00:00",
+  "pages": [
+    {
+      "url": "https://www.usmle.org/step-exams/step-1",
+      "title": "Step 1 | USMLE",
+      "headings": [
+        "Step 1",
+        "Step 1",
+        "In This Section Icon/Close",
+        "Overview",
+        "Content Outline & Specifications",
+        "Scheduling Information",
+        "Bulletin of Information",
+        "Exam Eligibility",
+        "Prepare for Your Exam",
+        "Test Accommodations",
+        "Common Questions"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 1",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 1",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Overview",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Content Outline & Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Scheduling Information",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Bulletin of Information",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Exam Eligibility",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Prepare for Your Exam",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Test Accommodations",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Common Questions",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/step-exams/step-1/step-1-exam-content",
+      "title": "Step 1 Exam Content | USMLE",
+      "headings": [
+        "Step 1 Exam Content",
+        "Step 1 Exam Content",
+        "In This Section Icon/Close",
+        "Overview",
+        "Important"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 1 Exam Content",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 1 Exam Content",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Overview",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Important",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/exam-resources/step-1-materials/step-1-content-outline-and-specifications",
+      "title": "Step 1 Exam Content | USMLE",
+      "headings": [
+        "Step 1 Exam Content",
+        "Step 1 Exam Content",
+        "In This Section Icon/Close",
+        "Download Step 1 Resources",
+        "Register for a Practice Session",
+        "In this section, you will find:",
+        "Content Outline",
+        "Step 1 Content Specifications",
+        "Step 1 Physician Tasks/Competencies Specifications",
+        "Step 1 Discipline Specifications",
+        "Download Content Outline & Physician Tasks/Competencies"
+      ],
+      "weight_rows": [
+        {
+          "label": "Human Development",
+          "min": 1,
+          "max": 3,
+          "group": "system**"
+        },
+        {
+          "label": "Blood & Lymphoreticular/Immune Systems",
+          "min": 9,
+          "max": 13,
+          "group": "system**"
+        },
+        {
+          "label": "Behavioral Health & Nervous Systems/Special Senses",
+          "min": 10,
+          "max": 14,
+          "group": "system**"
+        },
+        {
+          "label": "Musculoskeletal, Skin & Subcutaneous Tissue",
+          "min": 8,
+          "max": 12,
+          "group": "system**"
+        },
+        {
+          "label": "Cardiovascular System",
+          "min": 7,
+          "max": 11,
+          "group": "system**"
+        },
+        {
+          "label": "Respiratory & Renal/Urinary Systems",
+          "min": 11,
+          "max": 15,
+          "group": "system**"
+        },
+        {
+          "label": "Gastrointestinal System",
+          "min": 6,
+          "max": 10,
+          "group": "system**"
+        },
+        {
+          "label": "Reproductive & Endocrine Systems",
+          "min": 12,
+          "max": 16,
+          "group": "system**"
+        },
+        {
+          "label": "Multisystem Processes & Disorders",
+          "min": 8,
+          "max": 12,
+          "group": "system**"
+        },
+        {
+          "label": "Biostatistics & Epidemiology/Population Health",
+          "min": 4,
+          "max": 6,
+          "group": "system**"
+        },
+        {
+          "label": "Social Sciences: Communication and Interpersonal Skills",
+          "min": 6,
+          "max": 9,
+          "group": "system**"
+        },
+        {
+          "label": "Medical Knowledge: Applying Foundational Science Concepts",
+          "min": 60,
+          "max": 70,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Diagnosis",
+          "min": 20,
+          "max": 25,
+          "group": "competency"
+        },
+        {
+          "label": "Communication and Interpersonal Skills",
+          "min": 6,
+          "max": 9,
+          "group": "competency"
+        },
+        {
+          "label": "Practice–based Learning & Improvement",
+          "min": 4,
+          "max": 6,
+          "group": "competency"
+        },
+        {
+          "label": "Pathology",
+          "min": 45,
+          "max": 55,
+          "group": "discipline"
+        },
+        {
+          "label": "Physiology",
+          "min": 30,
+          "max": 40,
+          "group": "discipline"
+        },
+        {
+          "label": "Nutrition",
+          "min": 15,
+          "max": 20,
+          "group": "discipline"
+        },
+        {
+          "label": "Gross Anatomy & Embryology",
+          "min": 10,
+          "max": 20,
+          "group": "discipline"
+        },
+        {
+          "label": "Microbiology",
+          "min": 10,
+          "max": 20,
+          "group": "discipline"
+        },
+        {
+          "label": "Pharmacology",
+          "min": 10,
+          "max": 20,
+          "group": "discipline"
+        },
+        {
+          "label": "Behavioral Sciences",
+          "min": 10,
+          "max": 15,
+          "group": "discipline"
+        },
+        {
+          "label": "Biochemistry",
+          "min": 5,
+          "max": 15,
+          "group": "discipline"
+        },
+        {
+          "label": "Histology & Cell Biology",
+          "min": 5,
+          "max": 15,
+          "group": "discipline"
+        },
+        {
+          "label": "Immunology",
+          "min": 5,
+          "max": 15,
+          "group": "discipline"
+        },
+        {
+          "label": "Genetics",
+          "min": 5,
+          "max": 10,
+          "group": "discipline"
+        }
+      ],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 1 Exam Content",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 1 Exam Content",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Download Step 1 Resources",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Register for a Practice Session",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "In this section, you will find:",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Content Outline",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 1 Content Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 1 Physician Tasks/Competencies Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 1 Discipline Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Download Content Outline & Physician Tasks/Competencies",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/step-exams/step-2-ck",
+      "title": "Step 2 CK | USMLE",
+      "headings": [
+        "Step 2 CK",
+        "Step 2 CK",
+        "In This Section Icon/Close",
+        "Overview",
+        "Content Outline & Specifications",
+        "Scheduling Information",
+        "Bulletin of Information",
+        "Exam Eligibility",
+        "Prepare for Your Exam",
+        "Test Accommodations",
+        "Common Questions"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 2 CK",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 2 CK",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Overview",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Content Outline & Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Scheduling Information",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Bulletin of Information",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Exam Eligibility",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Prepare for Your Exam",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Test Accommodations",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Common Questions",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/step-exams/step-2-ck/step-2-ck-exam-content",
+      "title": "Step 2 CK Exam Content | USMLE",
+      "headings": [
+        "Step 2 CK Exam Content",
+        "Step 2 CK Exam Content",
+        "In This Section Icon/Close",
+        "Overview",
+        "Important"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 2 CK Exam Content",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 2 CK Exam Content",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Overview",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Important",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/exam-resources/step-2-ck-materials/step-2-ck-content-outline-specifications",
+      "title": "Step 2 CK Exam Content | USMLE",
+      "headings": [
+        "Step 2 CK Exam Content",
+        "Step 2 CK Exam Content",
+        "In This Section Icon/Close",
+        "Download Step 2 CK Resources",
+        "Register for a Practice Session",
+        "In this section, you will find:",
+        "Content Outline",
+        "Step 2 CK Content Specifications",
+        "Step 2 CK Physician Tasks/Competencies Specifications",
+        "Step 2 CK Clinical Science Specifications",
+        "Download Content Outline & Physician Tasks/Competencies"
+      ],
+      "weight_rows": [
+        {
+          "label": "Nutrition",
+          "min": 15,
+          "max": 20,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Social Sciences:  Legal/Ethical Issues & Professionalism/Systems-based Practice & Patient Safety",
+          "min": 10,
+          "max": 15,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Renal & Urinary System & Reproductive Systems",
+          "min": 7,
+          "max": 13,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Cardiovascular System",
+          "min": 6,
+          "max": 12,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Musculoskeletal System/Skin & Subcutaneous Tissue",
+          "min": 6,
+          "max": 12,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Behavioral Health",
+          "min": 5,
+          "max": 10,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Blood & Lymphoreticular/Immune Systems",
+          "min": 5,
+          "max": 10,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Gastrointestinal System",
+          "min": 5,
+          "max": 10,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Nervous System & Special Senses",
+          "min": 5,
+          "max": 10,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Respiratory System",
+          "min": 5,
+          "max": 10,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Multisystem Processes & Disorders",
+          "min": 4,
+          "max": 8,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Endocrine System",
+          "min": 3,
+          "max": 7,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Pregnancy, Childbirth & the Puerperium",
+          "min": 3,
+          "max": 7,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Biostatistics & Epidemiology/Population Health/Interpretation of Medical Literature",
+          "min": 3,
+          "max": 5,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Human Development",
+          "min": 2,
+          "max": 4,
+          "group": "system/discipline"
+        },
+        {
+          "label": "Patient Care: Diagnosis",
+          "min": 16,
+          "max": 20,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Laboratory/Diagnostic Studies",
+          "min": 13,
+          "max": 17,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Mixed Management",
+          "min": 12,
+          "max": 16,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Pharmacotherapy",
+          "min": 8,
+          "max": 12,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Clinical Interventions",
+          "min": 6,
+          "max": 10,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Health Maintenance/Disease Prevention",
+          "min": 5,
+          "max": 10,
+          "group": "competency"
+        },
+        {
+          "label": "Patient Care: Prognosis/Outcome",
+          "min": 5,
+          "max": 9,
+          "group": "competency"
+        },
+        {
+          "label": "Systems-based Practice & Patient Safety",
+          "min": 5,
+          "max": 7,
+          "group": "competency"
+        },
+        {
+          "label": "Professionalism",
+          "min": 5,
+          "max": 7,
+          "group": "competency"
+        },
+        {
+          "label": "Practice-based Learning & Improvement",
+          "min": 3,
+          "max": 5,
+          "group": "competency"
+        },
+        {
+          "label": "Medicine",
+          "min": 55,
+          "max": 65,
+          "group": "clinical science"
+        },
+        {
+          "label": "Pediatrics",
+          "min": 17,
+          "max": 27,
+          "group": "clinical science"
+        },
+        {
+          "label": "Obstetrics & Gynecology",
+          "min": 10,
+          "max": 20,
+          "group": "clinical science"
+        },
+        {
+          "label": "Psychiatry",
+          "min": 10,
+          "max": 15,
+          "group": "clinical science"
+        },
+        {
+          "label": "Surgery",
+          "min": 5,
+          "max": 15,
+          "group": "clinical science"
+        }
+      ],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Step 2 CK Exam Content",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Step 2 CK Exam Content",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Download Step 2 CK Resources",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Register for a Practice Session",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "In this section, you will find:",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Content Outline",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 2 CK Content Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 2 CK Physician Tasks/Competencies Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Step 2 CK Clinical Science Specifications",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Download Content Outline & Physician Tasks/Competencies",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/apply-exams",
+      "title": "Apply for Exams | USMLE",
+      "headings": [
+        "Apply for Exams",
+        "Apply for Exams",
+        "USMLE Fee Assistance Program",
+        "Apply for Step 1 Exam",
+        "Apply for Step 2 CK Exam",
+        "Apply for Step 3 Exam"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Apply for Exams",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Apply for Exams",
+          "level": 1,
+          "children": [
+            {
+              "text": "USMLE Fee Assistance Program",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Apply for Step 1 Exam",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Apply for Step 2 CK Exam",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Apply for Step 3 Exam",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/bulletin-information/eligibility",
+      "title": "Bulletin of Information | Eligibility",
+      "headings": [
+        "Eligibility",
+        "Eligibility",
+        "In This Section Icon/Close",
+        "Eligibility for the USMLE Steps",
+        "Who Is Eligible to Take the USMLE?",
+        "Change in Eligibility Status",
+        "Number of Attempts and Time Limits",
+        "Retaking Failed Examinations",
+        "Retaking Previously Passed Steps",
+        "Previously Licensed Physicians",
+        "Next Section"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Eligibility",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Eligibility",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Eligibility for the USMLE Steps",
+              "level": 2,
+              "children": [
+                {
+                  "text": "Who Is Eligible to Take the USMLE?",
+                  "level": 3,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Change in Eligibility Status",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Number of Attempts and Time Limits",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Retaking Failed Examinations",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Retaking Previously Passed Steps",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Previously Licensed Physicians",
+              "level": 2,
+              "children": [
+                {
+                  "text": "Next Section",
+                  "level": 3,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/bulletin-information/scoring-and-score-reporting",
+      "title": "Bulletin of Information | Scoring & Score Reporting",
+      "headings": [
+        "Scoring & Score Reporting",
+        "Scoring & Score Reporting",
+        "In This Section Icon/Close",
+        "Examination Results and Scoring",
+        "What Happens While You Wait for Your Scores?",
+        "Score Availability",
+        "How to Receive/Send Transcripts?",
+        "Reporting to Third Parties",
+        "Incomplete Scores",
+        "Score Rechecks",
+        "Score Validity",
+        "Anomalous Performance",
+        "Next Section"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Scoring & Score Reporting",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Scoring & Score Reporting",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Examination Results and Scoring",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "What Happens While You Wait for Your Scores?",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Score Availability",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "How to Receive/Send Transcripts?",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Reporting to Third Parties",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Incomplete Scores",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Score Rechecks",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Score Validity",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Anomalous Performance",
+              "level": 2,
+              "children": [
+                {
+                  "text": "Next Section",
+                  "level": 3,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://www.usmle.org/scores-transcripts/examination-results-and-scoring",
+      "title": "Examination Results and Scoring | USMLE",
+      "headings": [
+        "Examination Results and Scoring",
+        "Examination Results and Scoring",
+        "In This Section Icon/Close",
+        "Understanding Your USMLE Score Report",
+        "Step 1",
+        "Step 2 CK",
+        "Step 3",
+        "Scores",
+        "Score Availability",
+        "Reporting to Third Parties",
+        "Incomplete Scores"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Examination Results and Scoring",
+          "level": 1,
+          "children": []
+        },
+        {
+          "text": "Examination Results and Scoring",
+          "level": 1,
+          "children": [
+            {
+              "text": "In This Section Icon/Close",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Understanding Your USMLE Score Report",
+              "level": 2,
+              "children": [
+                {
+                  "text": "Step 1",
+                  "level": 3,
+                  "children": []
+                },
+                {
+                  "text": "Step 2 CK",
+                  "level": 3,
+                  "children": []
+                },
+                {
+                  "text": "Step 3",
+                  "level": 3,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "text": "Scores",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Score Availability",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Reporting to Third Parties",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Incomplete Scores",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blueprint_diff": [
+    {
+      "exam": "usmle-step2ck",
+      "topic": null,
+      "crawled_label": "Nutrition",
+      "crawled": [
+        15,
+        20
+      ],
+      "url": "https://www.usmle.org/exam-resources/step-2-ck-materials/step-2-ck-content-outline-specifications"
+    }
+  ],
+  "content_outline": [
+    {
+      "system": "USMLE Content Outline",
+      "categories": [
+        {
+          "name": "The USMLE Content outline provides a common organization of content across all USMLE",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "USMLE program continually reviews its examinations to ensure their content is relevant to the practice",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "USMLE has also focused recent efforts on the often unrecognized health care needs of:",
+          "topics": [
+            "recently returning military personnel and veterans and the families of deployed military",
+            "populations requiring health and gender-affirming care (eg, nonbinary and transgender patients)",
+            "patients with disabilities"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Although many of the medical issues related to the health care of these special populations are not",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "USMLE Physician Tasks/Competencies provides an outline of the tasks and competencies assessed",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Examinees should refer to the test specifications for each examination for more information about",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "USMLE website (www.usmle.org) for more detail.",
+          "topics": [],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Table of Contents",
+      "categories": [
+        {
+          "name": "Human Development",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Immune System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Blood & Lymphoreticular System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Behavioral Health",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Nervous System & Special Senses",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Skin & Subcutaneous Tissue",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Musculoskeletal System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Cardiovascular System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Respiratory System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Gastrointestinal System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Renal & Urinary System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Pregnancy, Childbirth, & the Puerperium",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Female and Transgender Reproductive System & Breast",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Male and Transgender Reproductive System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Endocrine System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Multisystem Processes & Disorders",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Biostatistics, Epidemiology/Population Health, & Interpretation of the Medical Literature",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Social Sciences",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "3",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "4",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "5",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "7",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "9",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "13",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "15",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "17",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "19",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "21",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "24",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "26",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "28",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "30",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "31",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "33",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "36",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "39",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Copyright © 2026 by the Federation of State Medical Boards of the United States, Inc. (FSMB), and NBME.",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "All rights reserved. The United States Medical Licensing Examination® (USMLE®) is a joint program of the FSMB and NBME.",
+          "topics": [],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Human Development",
+      "categories": [
+        {
+          "name": "Normal age-related findings and care of the well patient",
+          "topics": [
+            "Infancy and childhood (0–12 years)",
+            "Adolescence (13–17 years)",
+            "Adulthood (18–64 years)",
+            "Older Adulthood (65 years and older)"
+          ],
+          "subtopics": [
+            "Normal physical changes: linear growth, variations in linear growth, including constitutional delay;",
+            "Developmental stages: motor; speech; cognitive; psychosocial; anticipatory guidance",
+            "Lifestyle and routine preventive health care: nutrition; exercise (eg, benefits of exercise);",
+            "Normal physical changes: linear growth, variations in linear growth including constitutional delay;",
+            "Developmental stages: cognitive (eg, abstract thought); psychosocial (eg, autonomy, role",
+            "Lifestyle and routine preventive health care: nutrition; exercise (eg, benefits of exercise);",
+            "Normal physical changes: weight; normal physical examination; screening; sleep",
+            "Developmental stages: cognitive; intimacy vs isolation; anticipatory guidance",
+            "Lifestyle and routine preventive health care: nutrition; exercise (eg, benefits of exercise);",
+            "Normal physical changes, including normal physical exam for age: weight, height (spinal",
+            "Developmental stages: motor; cognitive (eg, changes associated with normal aging);",
+            "Lifestyle and routine preventive health care: nutrition; exercise (eg, benefits of exercise);"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Immune System",
+      "categories": [
+        {
+          "name": "Disorders associated with immunodeficiency",
+          "topics": [
+            "deficiency primarily of humoral immunity"
+          ],
+          "subtopics": [
+            "common variable immunodeficiency; hyper IgM syndrome;"
+          ]
+        },
+        {
+          "name": "(eg, IgA, IgM, IgE)",
+          "topics": [
+            "deficiency/dysfunction primarily of cell-mediated immunity",
+            "complement deficiency",
+            "deficiency of phagocytic cells and natural killer cells"
+          ],
+          "subtopics": [
+            "adenosine deaminase deficiency; DiGeorge (22q11.2 deletion) syndrome; severe combined",
+            "alternative pathway component deficiency (C2, C3b, C3bB, C36B6); classical pathway",
+            "Chediak-Higashi disease; chronic granulomatous disease and other disorders of phagocytosis;"
+          ]
+        },
+        {
+          "name": "HIV/AIDS",
+          "topics": [
+            "HIV1 and HIV2; AIDS; AIDS complications (eg, neuropathy, dementia, renal insufficiency); immunology of"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "AIDS; immune reconstitution syndrome (IRS); secondary infections; noninfectious complications (eg,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Kaposi sarcoma)",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Immunologically mediated disorders",
+          "topics": [
+            "hypersensitivity reactions",
+            "transplantation"
+          ],
+          "subtopics": [
+            "type 1, 2, 3, including anaphylaxis; type 4; drug reactions; serum sickness",
+            "rejection; graft-versus-host disease"
+          ]
+        },
+        {
+          "name": "Adverse effects of drugs on the immune system",
+          "topics": [
+            "Jarisch-Herxheimer reaction; drugs affecting the immune system (eg, prednisone, azathioprine,"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Blood & Lymphoreticular System",
+      "categories": [
+        {
+          "name": "Infectious and immunologic, including microbiologic and host response to insult",
+          "topics": [
+            "infectious disorders",
+            "primary infections of lymphoid tissue",
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "bacterial",
+            "viral: hemorrhagic fever (Ebola virus, Marburg virus); chikungunya; dengue fever; Zika virus",
+            "parasitic: malaria (Plasmodium species); babesiosis (Babesia species)",
+            "lymphadenitis (viral, bacterial, fungal, parasitic); lymphangitis; buboes, bubonic plague (Yersinia",
+            "cryoglobulinemia, essential mixed cryoglobulinemia; autoimmune hemolytic anemia; paroxysmal"
+          ]
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "leukemia, acute (ALL, AML); leukemia, chronic (CLL, CML); lymphomas, Hodgkin disease, non-Hodgkin"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Anemia, cytopenias, and polycythemia anemias",
+          "topics": [
+            "decreased production",
+            "hemolysis",
+            "disorders of hemoglobin, heme, or membrane",
+            "other causes of anemia",
+            "cytopenias",
+            "cythemias"
+          ],
+          "subtopics": [
+            "anemia of chronic disease",
+            "glucose 6-phosphate dehydrogenase deficiency; pyruvate kinase deficiency",
+            "disorders of red cell membranes; hereditary spherocytosis, elliptocytosis; methemoglobinemia,",
+            "blood loss, acute and chronic as a cause of anemia",
+            "aplastic anemia; leukopenia; neutropenia, cyclic neutropenia, agranulocytosis; pancytopenia;",
+            "leukocytosis; polycythemia vera; secondary polycythemia"
+          ]
+        },
+        {
+          "name": "Coagulation disorders (hypocoagulable and hypercoagulable conditions)",
+          "topics": [
+            "hypocoagulable"
+          ],
+          "subtopics": [
+            "disseminated intravascular coagulation; hemophilia, congenital; factors VIII [hemophilia A] and IX"
+          ]
+        },
+        {
+          "name": "[hemophilia B]; hypofibrinogenemia; von Willebrand disease; platelet dysfunction, qualitative",
+          "topics": [
+            "hypercoagulable",
+            "reactions to blood components"
+          ],
+          "subtopics": [
+            "heparin-induced thrombocytopenia; other coagulopathies (eg, homocysteinemia,",
+            "ABO incompatibility/anaphylaxis; Rh incompatibility/anaphylaxis; hemolysis, delayed; transfusion"
+          ]
+        },
+        {
+          "name": "Traumatic, mechanical, and vascular disorders",
+          "topics": [
+            "mechanical injury to erythrocytes (eg, cardiac valve hemolysis)",
+            "disorders of the spleen"
+          ],
+          "subtopics": [
+            "splenic rupture/laceration; splenic infarct; splenic abscess; effects/complications of splenectomy"
+          ]
+        },
+        {
+          "name": "(eg, sepsis due to encapsulated bacteria); hypersplenism",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on the hematologic and lymphoreticular systems",
+          "topics": [
+            "antiplatelet drugs; antithrombin drugs (eg, dabigatran); chemotherapeutic agents; inhibitors of coagulation"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Behavioral Health",
+      "categories": [
+        {
+          "name": "Psychotic disorders",
+          "topics": [
+            "brief psychotic disorder; delusional disorder; psychotic disorder due to another medical condition;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Anxiety disorders",
+          "topics": [
+            "acute stress disorder; anxiety disorders (generalized anxiety disorder, anxiety due to another medical"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Mood disorders",
+          "topics": [
+            "major depressive disorder with and without psychotic features, with and without seasonal pattern; major"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Somatic symptoms and related disorders",
+          "topics": [
+            "body dysmorphic disorder; functional neurologic symptom disorder (conversion disorder), including"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Factitious disorders",
+          "topics": [
+            "factitious disorder imposed on self"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Eating disorders and impulse-control disorders",
+          "topics": [
+            "anorexia nervosa; binge-eating disorder; bulimia nervosa; eating disorder; disruptive, impulse-control, and"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders originating in infancy/childhood",
+          "topics": [
+            "reactive attachment disorder; attention-deficit/hyperactivity disorder; speech sound disorder or language"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Personality disorders",
+      "categories": [
+        {
+          "name": "Psychosocial disorders/behaviors",
+          "topics": [
+            "adjustment disorder; grief response/bereavement, normal and persistent complex; parent-child relational"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Sexual disorders and gender dysphoria",
+          "topics": [
+            "gender dysphoria; psychosexual dysfunction"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Substance use disorders",
+          "topics": [
+            "alcohol use disorder/intoxication/dependence/withdrawal; tobacco/nicotine use"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Nervous System & Special Senses",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders"
+          ],
+          "subtopics": [
+            "meningitis: bacterial (Actinomyces israelii; Haemophilus influenzae; Listeria monocytogenes;"
+          ]
+        },
+        {
+          "name": "Mycobacterium tuberculosis; Neisseria meningitidis; Staphylococcus aureus, epidermidis;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Streptococcus agalactiae; Streptococcus pneumoniae); viral (adenovirus, arboviruses, echovirus",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Louis encephalitis virus, California encephalitis virus, Western equine encephalitis virus); fungal",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "(Blastomycosis dermatitidis, Cryptococcus neoformans/gattii); spirochetal (Borrelia burgdorferi;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Leptospira; Treponema pallidum, including neurosyphilis); protozoal/helminths (Acanthamoeba,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Naegleria fowleri, Strongyloides stercoralis, Angiostrongylus cantonensis, Baylisascaris",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "(Clostridium tetani); CNS disorders associated with AIDS (eg, progressive multifocal",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "myasthenia gravis, including thymoma; multiple sclerosis; transverse myelitis"
+          ]
+        },
+        {
+          "name": "Neoplasms (cerebral, spinal, and peripheral)",
+          "topics": [
+            "benign (meningioma, neurofibromatosis)",
+            "malignant (glioblastoma, astrocytoma, medulloblastoma, primary CNS lymphoma)",
+            "metastatic (eg, breast, lung, pancreatic, testicular, melanoma)"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Cerebrovascular disease",
+          "topics": [
+            "arteriovenous malformations, ectatic cerebral vessels; transient ischemic attack; stroke, thrombotic:"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders relating to the spine, spinal cord, and spinal nerve roots",
+          "topics": [
+            "cauda equina syndrome; spinal artery thrombosis/embolus/infarct; spinal cord compression; spinal cord"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Cranial and peripheral nerve disorders",
+          "topics": [
+            "cranial nerve injury/disorders",
+            "peripheral nerve/plexus injury/disorders"
+          ],
+          "subtopics": [
+            "cranial nerve injury; Bell palsy; anisocoria, miosis, mydriasis; internuclear ophthalmoplegia;",
+            "peripheral nerve injury, including brachial plexus; carpal/cubital/tarsal/peroneal tunnel syndrome;"
+          ]
+        },
+        {
+          "name": "Tooth disease); herpes zoster",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neurologic pain syndromes",
+          "topics": [
+            "complex regional pain syndrome (reflex sympathetic dystrophy, causalgia); fibromyalgia; postherpetic"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Degenerative disorders/amnestic syndromes",
+          "topics": [
+            "Alzheimer disease; frontotemporal dementia, including progressive supranuclear palsy, Lewy body"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Global cerebral dysfunction",
+          "topics": [
+            "altered states of consciousness; delirium; coma/brain death"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Neuromuscular disorders",
+          "topics": [
+            "amyotrophic lateral sclerosis/spinal muscular atrophy; muscular dystrophy (eg, Duchenne, myotonic);"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Movement disorders",
+          "topics": [
+            "acute dystonia; adult tic disease; essential tremor; Huntington disease; Parkinson disease, including"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Parkinson dementia",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Metabolic disorders",
+          "topics": [
+            "adrenoleukodystrophy; metabolic encephalopathy"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Paroxysmal disorders",
+          "topics": [
+            "headache, including migraine, mixed, tension, ice-pick, cluster, medication withdrawal, caffeine"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Sleep disorders",
+          "topics": [
+            "cataplexy and narcolepsy; circadian rhythm sleep-wake disorder; insomnia, primary; sleep terror disorder"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Traumatic and mechanical disorders and disorders of increased intracranial",
+      "categories": [
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "Friedreich ataxia; neural tube defects (eg, spina bifida, holoprosencephaly, anencephaly); microcephaly;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Sturge-Weber syndrome; tuberous sclerosis, von Hippel-Lindau disease; hydrocephalus, obstructive",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "(Arnold-Chiari)",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on the nervous system",
+          "topics": [
+            "acute dystonic reaction; drug-induced meningitis (eg, NSAIDs, sulfa drugs); drug-induced neuropathy (eg,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders of the eye and eyelid",
+          "topics": [
+            "infectious and inflammatory disorders of the eye, including microbiologic and host response to insult"
+          ],
+          "subtopics": [
+            "blepharitis/eyelid inflammation; chalazion; chorioretinitis; conjunctivitis"
+          ]
+        },
+        {
+          "name": "(adenovirus)/keratoconjunctivitis; dacryocystitis; endophthalmitis; hordeolum; iridocyclitis; optic",
+          "topics": [
+            "neoplasms of the eye",
+            "disorders of the eye and eyelid, structural",
+            "disorders of the pupil, iris, muscles (extraocular)",
+            "disorders of the retina",
+            "traumatic and mechanical disorders",
+            "adverse effects of drugs on the eyes"
+          ],
+          "subtopics": [
+            "melanoma; retinoblastoma",
+            "cataract; glaucoma; lacrimal system disorders; pterygium; refractive disorders (presbyopia,",
+            "amblyopia; strabismus",
+            "hypertensive retinopathy; macular degeneration; papilledema; retinal detachment; retinitis",
+            "black eye; burn of the eye and adnexa; corneal abrasion, ulcer; dislocated lens; foreign body in",
+            "ethambutol; hydroxychloroquine; prednisone"
+          ]
+        },
+        {
+          "name": "Disorders of the ear",
+          "topics": [
+            "infectious and inflammatory disorders of the ear, including microbiologic and host response to insult",
+            "neoplasms",
+            "hearing loss/deafness",
+            "disorders of balance and spatial orientation",
+            "traumatic and mechanical disorders",
+            "adverse effects of drugs on the ear"
+          ],
+          "subtopics": [
+            "chondritis; mastoiditis; otitis, externa, media, interna, serous, suppurative, malignant otitis externa",
+            "acoustic neuroma, neurofibromatosis type 2; cholesteatoma",
+            "hearing loss, including noise-induced; otosclerosis; tinnitus",
+            "Ménière disease; motion sickness; vertigo, including benign positional vertigo",
+            "barotrauma; foreign body in ear; impacted cerumen; laceration, avulsion; perforation of tympanic",
+            "antineoplastic agents, including cisplatin; aminoglycosides; furosemide; salicylates"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Skin & Subcutaneous Tissue",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders and infestations"
+          ],
+          "subtopics": [
+            "bacterial"
+          ]
+        },
+        {
+          "name": "▪ cellulitis, erysipelas, impetigo, staphylococcal scalded skin syndrome; abscess,",
+          "topics": [],
+          "subtopics": [
+            "viral"
+          ]
+        },
+        {
+          "name": "▪ herpes simplex type 1 & type 2, herpes zoster, Ramsay-Hunt syndrome; molluscum",
+          "topics": [],
+          "subtopics": [
+            "fungal (deep and superficial)"
+          ]
+        },
+        {
+          "name": "▪ candidiasis, skin; dermatophytosis, tinea corporis; dermatomycoses; diaper rash;",
+          "topics": [],
+          "subtopics": [
+            "parasitic"
+          ]
+        },
+        {
+          "name": "▪ cutaneous larva migrans; cutaneous leishmaniasis",
+          "topics": [],
+          "subtopics": [
+            "infestations, nonvenomous bites, stings"
+          ]
+        },
+        {
+          "name": "▪ scabies; lice; insect bites, including bed bugs",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "papulosquamous and eczematous dermatoses"
+          ]
+        },
+        {
+          "name": "▪ psoriasis; lichen planus and lichenoid dermatoses; allergic/irritant contact dermatitis (eg,",
+          "topics": [],
+          "subtopics": [
+            "vesiculobullous disorders"
+          ]
+        },
+        {
+          "name": "▪ epidermolysis bullosa; dermatitis herpetiformis; pemphigus; pemphigoid; pyoderma",
+          "topics": [],
+          "subtopics": [
+            "urticaria, erythema, exanthema, and purpura"
+          ]
+        },
+        {
+          "name": "▪ erythema nodosum; atopic dermatitis; pityriasis rosea; urticaria; Stevens-Johnson",
+          "topics": [],
+          "subtopics": [
+            "autoimmune disorders"
+          ]
+        },
+        {
+          "name": "▪ vitiligo",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "benign neoplasms, cysts and other skin lesions",
+            "malignant neoplasms"
+          ],
+          "subtopics": [
+            "actinic keratoses; cysts, including epidermal; hemangiomas; lipoma; pigmented nevi; seborrheic",
+            "basal cell carcinoma; squamous cell carcinoma; melanoma, including genital; cutaneous T-cell"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Integumentary disorders (hair and hair follicles, nails, sweat glands, sebaceous",
+      "categories": [
+        {
+          "name": "Oral disease",
+          "topics": [
+            "aphthous ulcers (stomatitis, canker sores); leukoplakia"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders of pigmentation",
+          "topics": [
+            "albinism; lentigo"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "animal bites (dogs, cats, etc); burns or wounds affecting the skin or subcutaneous tissue (eg, sunburn,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "xeroderma pigmentosum; benign lesions in neonates, infants, children (eg, congenital nevi)"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on skin and subcutaneous tissue",
+          "topics": [
+            "drug reactions, eruptions, including local reaction to vaccine"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Musculoskeletal System",
+      "categories": [
+        {
+          "name": "Infectious, inflammatory, and immunologic disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders",
+            "immunologic disorders",
+            "inflammatory disorders"
+          ],
+          "subtopics": [
+            "gangrene, dry and wet, clostridial myonecrosis (Clostridium perfringens); discitis; myositis,",
+            "ankylosing spondylitis; dermatomyositis/polymyositis; juvenile idiopathic arthritis; rheumatoid",
+            "adhesive capsulitis of shoulder (frozen shoulder syndrome); ankylosis/spondylopathy"
+          ]
+        },
+        {
+          "name": "(inflammatory); bursitis; fasciitis; ganglion cyst; osteochondritis, osteochondritis dissecans;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "benign neoplasms (eg, osteoid osteoma, enchondroma, tenosynovial giant cell tumor)",
+            "malignant neoplasms of bone (eg, osteosarcoma, sarcoma, leiomyosarcoma, rhabdomyosarcoma);"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Degenerative and metabolic disorders",
+          "topics": [
+            "degenerative/metabolic disorders of bone, tendon, and cartilage"
+          ],
+          "subtopics": [
+            "chondromalacia; disc degeneration, herniated disc; Legg-Calvé-Perthes disease; Osgood-"
+          ]
+        },
+        {
+          "name": "Schlatter disease; osteodystrophy; osteomalacia; osteonecrosis (avascular), bone infarct;",
+          "topics": [
+            "degenerative/metabolic disorders of joints",
+            "degenerative/metabolic disorders of muscles, ligaments, fascia"
+          ],
+          "subtopics": [
+            "gout, gouty arthritis, pseudogout; joint effusion; osteoarthritis",
+            "Dupuytren contracture; muscle calcification and ossification; muscle wasting and diffuse atrophy;"
+          ]
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "amputation and care of amputees; backache, including low back pain; blast injuries; compartment"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "achondroplasia/dwarfism; disorders of limb development (HOX gene mutation, phocomelia);"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Adverse effects of drugs on the musculoskeletal system",
+      "categories": []
+    },
+    {
+      "system": "Cardiovascular System",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders",
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "bacterial endocarditis, myocarditis",
+            "atherosclerosis (eg, atherosclerosis of the aorta)"
+          ]
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "myxoma, metastases"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Dysrhythmias",
+          "topics": [
+            "premature beats (PACs, PVCs); atrial flutter/fibrillation; multifocal atrial tachycardia; paroxysmal"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Heart failure",
+          "topics": [
+            "chordae tendineae rupture; congestive heart failure; cor pulmonale; diastolic dysfunction; systolic"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Ischemic heart disease",
+          "topics": [
+            "acute coronary syndrome, acute myocardial infarction; angina pectoris, stable and unstable/coronary"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Diseases of the myocardium",
+          "topics": [
+            "cardiomyopathy, dilated, including alcoholic, viral, takotsubo; cardiomyopathy, obstructive hypertrophic;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Diseases of the pericardium",
+          "topics": [
+            "chronic constrictive pericarditis; pericardial effusion; pericardial tamponade; acute pericarditis; pericarditis,"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Valvular heart disease",
+      "categories": [
+        {
+          "name": "Hypotension",
+          "topics": [
+            "orthostatic hypotension"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Hypertension",
+          "topics": [
+            "elevated blood pressure reading without diagnosis of hypertension; essential hypertension; hypertensive"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Dyslipidemia",
+          "topics": [
+            "hypercholesterolemia; hyperlipidemia; hypertriglyceridemia; lipoproteins/lipoprotein lipase deficiency"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Vascular disorders",
+          "topics": [
+            "disorders of the great vessels",
+            "peripheral arterial vascular disease",
+            "diseases of the veins"
+          ],
+          "subtopics": [
+            "aneurysm, aortic (abdominal/thoracic), dissection, ruptured; aneurysm, iliac, other peripheral",
+            "arterial embolus/thrombosis; arteriovenous fistula; atheroembolic disease; claudication;",
+            "deep venous thrombosis, venous thromboembolism; phlebitis/thrombophlebitis; varicose veins;"
+          ]
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "ventricular puncture; myocardial contusion; myocardial rupture; traumatic aortic dissection; traumatic"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders, including disease in adults",
+          "topics": [
+            "anomalous left coronary artery; atrial septal defect; coarctation of the aorta; endocardial cushion defect;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on the cardiovascular system",
+          "topics": [
+            "adriamycin; cocaine, amphetamine, PCP; ACE inhibitors, calcium channel blockers, alpha blockers,"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Respiratory System",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious, immunologic, and inflammatory disorders of the upper airways"
+          ],
+          "subtopics": [
+            "acute upper respiratory infection; viral infections (adenovirus, coronaviruses, coxsackievirus,"
+          ]
+        },
+        {
+          "name": "Bordetella pertussis pneumonia; croup; acute laryngitis; acute laryngotracheitis; tracheitis;",
+          "topics": [
+            "infectious, immunologic, and inflammatory disorders of the lower airways"
+          ],
+          "subtopics": [
+            "hospital-acquired pneumonia; ventilator-associated pneumonia, community-acquired pneumonia,"
+          ]
+        },
+        {
+          "name": "Coxiella burnetii, Francisella tularensis, Haemophilus influenzae, Klebsiella pneumoniae,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Legionella, Moraxella catarrhalis, Mycoplasma pneumoniae, Pseudomonas aeruginosa,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Streptococcus, MSSA, MRSA, other gram-negative bacteria); viral infection (eg, influenza A, B,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "(eg, influenza A, B, adenovirus, respiratory syncytial virus, parainfluenza virus, avian influenza",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "benign neoplasms: upper airways (eg, vocal cord polyps, nasal polyps, juvenile papillomatosis); lungs",
+            "malignant neoplasms",
+            "metastatic neoplasms including pleural"
+          ],
+          "subtopics": [
+            "upper airways: lip, oral cavity, and pharynx; head and neck cancer; larynx; trachea",
+            "lower airways and pleura: malignant neoplasms of bronchus and/or lung (squamous cell,"
+          ]
+        },
+        {
+          "name": "Obstructive airway disease",
+          "topics": [
+            "asthma, reactive airway disease; bronchiectasis; chronic airway obstruction; chronic obstructive"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Pneumoconiosis/fibrosing/restrictive pulmonary disorders/interstitial lung disease",
+          "topics": [
+            "pneumoconiosis; asbestosis; silicosis; silo-filler's lung, byssinosis, bagassosis, berylliosis; hypersensitivity"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Respiratory failure/respiratory arrest and pulmonary vascular disorders",
+      "categories": [
+        {
+          "name": "Metabolic, regulatory, and structural disorders",
+          "topics": [
+            "disorders of gas exchange; hypoventilation; hypoxia; ventilation-perfusion imbalance"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders of the pleura, mediastinum, and chest wall",
+          "topics": [
+            "chylothorax; costochondritis; empyema; hemothorax; mediastinitis; pleural effusion; pleuritis;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "upper airways",
+            "lower airways and pleura"
+          ],
+          "subtopics": [
+            "epistaxis; barotrauma, sinus; laryngeal/pharyngeal obstruction; tracheoesophageal fistula;",
+            "atelectasis; diaphragm/chest wall injury; drowning and near drowning; foreign body, upper and"
+          ]
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "bronchogenic cysts; congenital cysts; congenital diaphragmatic hernia; pulmonary sequestration; immotile"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on the respiratory system",
+          "topics": [
+            "bleomycin, amiodarone; adverse effects of 100% oxygen; acute effects of tobacco/nicotine, inhalants,"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Gastrointestinal System",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders"
+          ],
+          "subtopics": [
+            "bacterial"
+          ]
+        },
+        {
+          "name": "▪ pseudomembranous colitis (Clostridium difficile); enteritis/enteric infections (includes",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Yersinia enterocolitica, Campylobacter species, Vibrio cholerae, Salmonella species,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Shigella species, traveler's/infectious diarrhea); hepatic abscess, subhepatic abscess,",
+          "topics": [],
+          "subtopics": [
+            "viral"
+          ]
+        },
+        {
+          "name": "▪ infectious esophagitis (eg, CMV, herpes); hepatitis A, B, C, D, E; coxsackievirus",
+          "topics": [],
+          "subtopics": [
+            "fungal"
+          ]
+        },
+        {
+          "name": "▪ thrush",
+          "topics": [],
+          "subtopics": [
+            "parasitic"
+          ]
+        },
+        {
+          "name": "▪ Cryptosporidium, Cyclospora, Entamoeba histolytica, Giardia, Isospora belli,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Strongyloides stercoralis",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "autoimmune hepatitis; celiac disease; eosinophilic esophagitis; granulomatous enteritis;"
+          ]
+        },
+        {
+          "name": "(collagenous and lymphocytic colitis), ulcerative colitis, toxic megacolon",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "benign neoplasms, including polyps, cysts",
+            "malignant neoplasms and pre-malignant conditions"
+          ],
+          "subtopics": [
+            "stomach; small intestine; colon, rectum, and anus, including polyps",
+            "oral cancer (eg, lips, mouth, tongue, salivary glands); esophageal, squamous and"
+          ]
+        },
+        {
+          "name": "MUTYH-associated polyposis; gallbladder, cholangiocarcinoma, adenocarcinoma of the ampulla",
+          "topics": [
+            "metastatic neoplasms"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Signs, symptoms, and ill-defined disorders",
+          "topics": [
+            "abdominal pain, constipation, diarrhea, nausea, and vomiting—not otherwise specified [NOS]"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders of the oral cavity, salivary glands, and esophagus",
+          "topics": [
+            "oral cavity and salivary glands",
+            "esophagus"
+          ],
+          "subtopics": [
+            "abscessed tooth; dental caries; malocclusion; disorders of the salivary glands (eg, stones,",
+            "achalasia and cardiospasm; dysphagia; diverticulum (eg, Zenker); esophageal periapical abscess"
+          ]
+        },
+        {
+          "name": "Disorders of the stomach, small intestine, colon, rectum, anus",
+          "topics": [
+            "stomach",
+            "small intestine, colon",
+            "rectum and anus"
+          ],
+          "subtopics": [
+            "dyspepsia/hyperacidity; gastric ulcer; gastritis; peptic ulcer; peptic ulcer perforation; gastroparesis",
+            "appendicitis; angiodysplasia; diverticula, diverticulitis, diverticulosis; duodenitis, duodenal ulcer,",
+            "abscess of anal and rectal regions; anal fissure; anal fistula; ulcer; fecal incontinence;"
+          ]
+        },
+        {
+          "name": "Disorders of the liver and biliary system, noninfectious",
+          "topics": [
+            "liver",
+            "biliary system"
+          ],
+          "subtopics": [
+            "cirrhosis; Dubin-Johnson, Rotor syndromes; end-stage liver disease, including indications for",
+            "bile duct obstruction/cholestasis; cholangitis, including ascending; choledocholithiasis;"
+          ]
+        },
+        {
+          "name": "Disorders of the pancreas",
+          "topics": [
+            "pancreatitis, acute; pancreatitis, chronic; pancreatitis, hereditary; pancreatic cyst/pseudocyst; pancreatic"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Disorders of the peritoneal cavity",
+          "topics": [
+            "ascites"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "abdominal wall defects; adhesions, postsurgical; digestive system complications of surgery; post-gastric"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "annular pancreas, biliary atresia, cleft lip and palate, esophageal atresia, malrotation without volvulus,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Meckel diverticulum, pyloric stenosis, tracheoesophageal fistula",
+          "topics": [],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Adverse effects of drugs on the gastrointestinal system",
+      "categories": [
+        {
+          "name": "(eg, thiazide diuretics)",
+          "topics": [],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Renal & Urinary System",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders"
+          ],
+          "subtopics": [
+            "upper urinary tract"
+          ]
+        },
+        {
+          "name": "▪ granulomatous pyelonephritis; perinephric abscess; pyelonephritis; pyonephrosis; renal",
+          "topics": [],
+          "subtopics": [
+            "lower urinary tract and urinary tract infections of unspecified location"
+          ]
+        },
+        {
+          "name": "▪ cystitis; chlamydial and nonchlamydial",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "upper urinary tract"
+          ]
+        },
+        {
+          "name": "▪ glomerular disorders: Alport syndrome; glomerular disease due to hepatitis B, C;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ tubular interstitial disease: acute tubular necrosis (ATN); acute interstitial nephritis;",
+          "topics": [],
+          "subtopics": [
+            "lower urinary tract"
+          ]
+        },
+        {
+          "name": "▪ interstitial cystitis",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "benign neoplasms and cysts",
+            "malignant neoplasms"
+          ],
+          "subtopics": [
+            "polycystic kidney disease",
+            "renal (eg, Wilms tumor/nephroblastoma, renal cell carcinoma, renal tumors associated with"
+          ]
+        },
+        {
+          "name": "Abnormalities of urine/urination",
+          "topics": [
+            "dysuria, hematuria, oliguria, anuria, proteinuria—not otherwise specified [NOS]"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Metabolic and regulatory disorders",
+          "topics": [
+            "acute kidney injury; renal insufficiency; azotemia, uremic syndrome; chronic kidney disease, including"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Vascular disorders",
+          "topics": [
+            "renal artery stenosis (atherosclerosis, fibromuscular dysplasia, nephrosclerosis); renal vein thrombosis;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "bladder rupture; neurogenic bladder; obstructive uropathy; posterior urethral valves; renal laceration;"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Congenital disorders",
+      "categories": [
+        {
+          "name": "Adverse effects of drugs on the renal and urinary system",
+          "topics": [
+            "ACE inhibitors; aminoglycosides; amphotericin B; cisplatin; furosemide; gadolinium (nephrogenic"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Pregnancy, Childbirth, & the Puerperium",
+      "categories": [
+        {
+          "name": "Prenatal care",
+          "topics": [
+            "preconception counseling and care",
+            "prenatal risk assessment/prevention",
+            "supervision of normal pregnancy"
+          ],
+          "subtopics": [
+            "folate deficiency prevention; immunizations; nutritional assessment, including vitamins; Rh",
+            "adolescent pregnancy; antepartum fetal evaluation, including biophysical profile; genetic",
+            "assessment of gestational age; iron deficiency prevention; nutrition, including weight"
+          ]
+        },
+        {
+          "name": "Obstetric complications",
+          "topics": [
+            "abortion, induced, septic, missed, spontaneous, threatened; acute fatty liver of pregnancy; anemia of"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Labor and delivery",
+          "topics": [
+            "labor and delivery, uncomplicated; labor and delivery, complicated, including shoulder dystocia; cesarean"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "(eg, HIV, Chlamydia, gonococcal prophylaxis); premature rupture of membranes; preterm (before 37",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Puerperium, including complications",
+          "topics": [
+            "lactation problems; breast-feeding problems; lochia; postpartum cardiomyopathy;  postpartum blues;"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Newborn (birth to 4 weeks of age)",
+      "categories": [
+        {
+          "name": "Candida infection (thrush); neonatal hypoglycemia; neonatal conjunctivitis and dacryocystitis;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on pregnancy, childbirth, and the puerperium",
+          "topics": [
+            "alcohol, tobacco, and other drugs (ATOD); prenatal radiation exposure; teratology (eg, ACE inhibitors,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "SSRIs, warfarin, infections, toxins)",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Systemic disorders affecting pregnancy, labor and delivery, and puerperium",
+          "topics": [
+            "appendicitis; asthma; carpal tunnel syndrome in pregnancy; cirrhosis; deep venous thrombosis (DVT);"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Female and Transgender Reproductive",
+      "categories": [
+        {
+          "name": "System & Breast",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Breast",
+          "topics": [
+            "infectious, immunologic, and inflammatory disorders, including microbiologic and host response to insult",
+            "neoplasms"
+          ],
+          "subtopics": [
+            "breast abscess; inflammatory disease of breast, fat necrosis; mastitis; nipple discharge",
+            "benign and undefined neoplasms"
+          ]
+        },
+        {
+          "name": "▪ breast cyst, solitary; fibrocystic changes; fibroadenoma; hypertrophy of breast; intraductal",
+          "topics": [],
+          "subtopics": [
+            "malignant neoplasms (including screening)"
+          ]
+        },
+        {
+          "name": "▪ breast cancer; intraductal carcinoma; Paget disease of breast; phyllodes tumors",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Female reproductive system",
+          "topics": [
+            "infectious, immunologic, and inflammatory disorders, including microbiologic and host response to insult",
+            "Neoplasms of the vulva, vagina, cervix, uterus, or ovaries",
+            "Fertility and infertility",
+            "Menopause",
+            "Menstrual and endocrine disorders",
+            "Sexual dysfunction",
+            "Traumatic and mechanical disorders",
+            "Congenital disorders",
+            "Adverse effects of drugs on the female reproductive system and breast"
+          ],
+          "subtopics": [
+            "bacterial vaginosis; Bartholin gland abscess; cellulitis, pelvic; candidiasis of the vulva or vagina;",
+            "benign neoplasms and cysts: abnormal cervical cytology; benign neoplasm of ovary; endocervical",
+            "malignant and precancerous neoplasms: cervical cancer; HPV causing cancer; cervical",
+            "assisted reproductive techniques (ART); contraception (eg, oral contraceptives, IUD, vaginal cap,",
+            "ovarian failure, premature menopause; perimenopause; premenopausal menorrhagia;",
+            "abnormal uterine bleeding, including perimenopausal; absence of menstruation (primary",
+            "dyspareunia; orgasmic dysfunction; sexual desire/arousal syndrome; vaginismus",
+            "Asherman syndrome; chronic inversion of uterus; chronic pelvic pain syndrome; cystocele;",
+            "müllerian agenesis; uterus didelphys, bicornuate uterus; short cervix",
+            "antihistamines, H2-receptor blockers; benzodiazepines; beta-adrenergic blockers; hormone"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Male and Transgender Reproductive",
+      "categories": [
+        {
+          "name": "System",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders"
+          ],
+          "subtopics": [
+            "balanitis; epididymitis; orchitis; prostatitis; sexually transmitted infections and exposure; chancroid"
+          ]
+        },
+        {
+          "name": "(Haemophilus ducreyi); genital herpes; gonorrhea (Neisseria gonorrhoeae); human",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "autoimmune hypogonadism"
+          ]
+        },
+        {
+          "name": "Neoplasms",
+          "topics": [
+            "malignant neoplasms, penile, prostate, testicular, breast"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Metabolic and regulatory disorders, including sexual dysfunction",
+          "topics": [
+            "erectile dysfunction, impotence; infertility, male factor; male sexual dysfunction; premature ejaculation;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Traumatic and mechanical disorders",
+          "topics": [
+            "benign prostatic hyperplasia/hypertrophy; circumcision, including complications; epididymal cyst;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "hypospadias; Klinefelter syndrome; undescended testicle"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Adverse effects of drugs on the male reproductive system",
+          "topics": [
+            "alcohol; androgens, testosterone; antipsychotics, antidepressants including selective serotonin reuptake"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Endocrine System",
+      "categories": [
+        {
+          "name": "Diabetes mellitus and other disorders of the endocrine pancreas",
+          "topics": [
+            "diabetes mellitus",
+            "hypoglycemia and islet cell disorders"
+          ],
+          "subtopics": [
+            "diabetes mellitus, type 1; diabetes mellitus, type 1.5; diabetes mellitus, type 2; diabetes mellitus,",
+            "hypoglycemia (secondary to insulinoma, surreptitious insulin use, sepsis, liver failure);"
+          ]
+        },
+        {
+          "name": "Thyroid disorders",
+          "topics": [
+            "cyst, nodule; nonthyroidal illness syndrome (euthyroid sick syndrome); goiter (euthyroid-normal"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Parathyroid disorders",
+          "topics": [
+            "hyperparathyroidism; hypoparathyroidism; metabolic bone disease"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Adrenal disorders",
+          "topics": [
+            "corticoadrenal insufficiency (Addison disease); adrenal insufficiency, secondary; hypocortisolism; Cushing"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Pituitary disorders",
+          "topics": [
+            "acromegaly/gigantism; diabetes insipidus; galactorrhea not associated with childbirth; panhypopituitarism"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "SIADH (inappropriate secretion of ADH [vasopressin]); neoplasm, benign and malignant (pituitary",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Hypothalamic endocrine disorders",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Multiple endocrine neoplasia (MEN1, MEN2)",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Congenital disorders",
+          "topics": [
+            "disorders of sexual differentiation; congenital adrenal hyperplasia; androgen insensitivity/resistance"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Adverse effects of drugs on the endocrine system",
+      "categories": []
+    },
+    {
+      "system": "Multisystem Processes & Disorders",
+      "categories": [
+        {
+          "name": "Infectious, immunologic, and inflammatory disorders, including microbiologic and",
+          "topics": [
+            "infectious disorders"
+          ],
+          "subtopics": [
+            "bacterial"
+          ]
+        },
+        {
+          "name": "▪ brucellosis (Brucella spp); leptospirosis (Leptospira interrogans); Lyme disease (Borrelia",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "(Mycobacterium tuberculosis); tularemia (Francisella tularensis); toxic shock syndrome; Q",
+          "topics": [],
+          "subtopics": [
+            "viral"
+          ]
+        },
+        {
+          "name": "▪ infectious mononucleosis (Epstein-Barr virus); cytomegalovirus infection; yellow fever;",
+          "topics": [],
+          "subtopics": [
+            "fungal"
+          ]
+        },
+        {
+          "name": "▪ blastomycosis (Blastomyces dermatitidis); candidiasis (Candida albicans);",
+          "topics": [],
+          "subtopics": [
+            "parasitic"
+          ]
+        },
+        {
+          "name": "▪ schistosomiasis (Schistosoma); leishmaniasis (Leishmania spp), visceral (kala-azar);",
+          "topics": [
+            "immunologic and inflammatory disorders"
+          ],
+          "subtopics": [
+            "acute rheumatic fever; autoimmune arteritis/vasculitis; Behçet syndrome; Churg -Strauss"
+          ]
+        },
+        {
+          "name": "(systemic sclerosis); Sjögren syndrome; systemic lupus erythematosus; Takayasu arteritis;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Neoplasms and related disorders",
+          "topics": [
+            "paraneoplastic syndromes",
+            "inherited cancer syndromes"
+          ],
+          "subtopics": [
+            "endocrine (eg, SIADH, Cushing syndrome, hypercalcemia of malignancy [parathyroid-related",
+            "DNA repair abnormalities (eg, Fanconi anemia); hereditary nonpolyposis colorectal cancer"
+          ]
+        },
+        {
+          "name": "(gastrointestinal and female reproductive)",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Signs, symptoms, and ill-defined disorders",
+          "topics": [
+            "not otherwise specified [NOS] arthralgias/joint pain; chest pain; cough; dizziness, light-headedness;"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Nutrition",
+      "categories": [
+        {
+          "name": "B3, niacin; vitamin B6, pyridoxine; vitamin B9, folic acid; vitamin B12, cobalamins (pernicious",
+          "topics": [
+            "mineral deficiencies and/or toxicities",
+            "obesity",
+            "enteral/parenteral nutrition (TPN)"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Toxins and environmental extremes",
+          "topics": [
+            "physical and associated disorders",
+            "chemical including Gulf War illness"
+          ],
+          "subtopics": [
+            "temperature (eg, hypothermia, hyperthermia, heat stroke)",
+            "radiation (eg, radon, uranium mining, imaging studies)",
+            "thermal injury, burns, electrocution, lightning",
+            "decreased atmospheric pressure, high-altitude sickness increased water pressure (nitrogen",
+            "gases, vapors, smoke inhalation",
+            "agricultural hazards (eg, pesticides, green tobacco poisoning, anhydrous ammonia, Agent"
+          ]
+        },
+        {
+          "name": "Orange)",
+          "topics": [],
+          "subtopics": [
+            "volatile organic solvents metals (eg, lead)",
+            "other chemical agents (eg, ethylene glycol, carbon tetrachloride, methanol; BPA)",
+            "principles of poisoning and therapy (eg, acetylsalicylic acid [ASA], acetaminophen)"
+          ]
+        },
+        {
+          "name": "Venomous bites and stings",
+          "topics": [
+            "hymenoptera bites and stings; scorpion bites; snake bites; spider bites; jellyfish stings"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Fluid, electrolyte, and acid-base balance disorders",
+          "topics": [
+            "fluid volume and electrolyte/ion disorders: fluid volume disorders; dehydration; hypovolemia; volume",
+            "acid-base disorders: metabolic acidosis; metabolic alkalosis; respiratory acidosis; respiratory alkalosis;"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Abuse",
+          "topics": [
+            "child, nonaccidental trauma/inflicted head trauma/factitious disorder by proxy",
+            "intimate partner abuse, sexual, emotional, and physical including injuries related to abuse (eg, rib",
+            "elder abuse, sexual, emotional, and physical including injuries related to abuse (eg, rib fractures)",
+            "sexual assault"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Multiple trauma",
+          "topics": [
+            "prioritization, blast injury involving more than one organ system"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Shock",
+      "categories": [
+        {
+          "name": "Genetic, metabolic, and developmental disorders",
+          "topics": [
+            "multifactorial",
+            "large genomic changes",
+            "enzymatic/metabolic",
+            "structural protein disorders",
+            "intracellular/extracellular transport receptors",
+            "triplet repeat/RNA disorders"
+          ],
+          "subtopics": [
+            "VATER/VACTERL association; association syndromes",
+            "Beckwith-Wiedemann syndrome; Down syndrome; Prader-Willi syndrome",
+            "alpha-1 antitrypsin deficiency; porphyria; inborn errors of metabolism (eg, maple syrup urine",
+            "amyloidosis; Ehlers-Danlos syndrome; immotile cilia syndrome (Kartagener syndrome; primary",
+            "cystic fibrosis; hemochromatosis; Wilson disease",
+            "fragile X syndrome"
+          ]
+        },
+        {
+          "name": "Adverse effects of drugs on multisystem disorders",
+          "topics": [
+            "drug-induced electrolyte abnormalities and acid base-disorders (eg, albuterol; prednisone; diuretics;"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Biostatistics, Epidemiology/Population",
+      "categories": [
+        {
+          "name": "Health, & Interpretation of the Medical",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Literature",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Epidemiology/population health",
+          "topics": [
+            "Measures of disease frequency",
+            "Measures of health status",
+            "Survival analysis interpretation (eg, Kaplan-Meier curve)",
+            "Composite health status indicators, measures of population impact",
+            "Population pyramids and impact of demographic changes",
+            "Disease surveillance and outbreak investigation",
+            "Communicable disease transmission",
+            "Points of intervention"
+          ],
+          "subtopics": [
+            "incidence/prevalence",
+            "rates, crude and adjusted; reproductive rates (eg, maternal mortality, neonatal/infant/under -5",
+            "years of potential life lost; quality-adjusted life years; disability-adjusted life years; standardized",
+            "disease reporting; response to public health advisory, health promotion; recognition of clusters",
+            "attack rate; herd immunity; reportable diseases; vaccine effectiveness",
+            "primary, secondary; community level (eg, cigarette taxes, soda taxes, smoke-free cities,"
+          ]
+        },
+        {
+          "name": "Study design, types and selection of studies (includes dependent/independent",
+          "topics": [
+            "Descriptive studies (case report [one person]/case series [more than one])",
+            "Analytical studies: observational",
+            "Analytical studies: interventional",
+            "Systematic reviews and meta-analysis",
+            "Obtaining and describing samples, matching, inclusion/exclusion criteria, selecting appropriate controls",
+            "Methods to handle noncompliance",
+            "Qualitative analysis"
+          ],
+          "subtopics": [
+            "community surveys; cross-sectional (individuals)",
+            "ecological (populations); case control; retrospective and prospective cohort",
+            "clinical trial (randomized controlled trial; double-blind; placebo-controlled;",
+            "potential uses; estimation of effect sizes; heterogeneity; publication bias; forest plots, funnel",
+            "loss to follow-up; intention-to-treat analysis"
+          ]
+        },
+        {
+          "name": "Measures of association",
+          "topics": [
+            "Relative risk",
+            "Odds ratio, hazard ratio",
+            "Other measures of association"
+          ],
+          "subtopics": [
+            "number needed to treat/harm; absolute risk (AR), absolute risk percent (AR%); population"
+          ]
+        },
+        {
+          "name": "Distributions of data",
+          "topics": [
+            "measures of central tendency; measures of variability; regression to mean; normal distribution; nominal"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Correlation and regression, uses and interpretation",
+          "topics": [
+            "correlation coefficients; multiple regression"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Principles of testing and screening",
+          "topics": [
+            "Properties of a screening test",
+            "Sensitivity and specificity; predictive value, positive and negative",
+            "ROC curves",
+            "Probability"
+          ],
+          "subtopics": [
+            "validity, accuracy, reliability; criteria for a screening test; confirmatory testing; appropriateness;",
+            "theory (independence, product, addition rules); decision trees; likelihood ratios (application of"
+          ]
+        },
+        {
+          "name": "Bayes theorem); posttest, pretest",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "Study interpretation, drawing conclusions from data",
+          "topics": [
+            "Causation",
+            "Chance",
+            "Interpretation of graphs/tables and text",
+            "Bias, confounding, and threats to validity (includes methods to address)",
+            "Internal vs external validity",
+            "Statistical vs clinical significance; clinical and surrogate outcome/end point"
+          ],
+          "subtopics": [
+            "hypothesis-generating vs hypothesis-driven testing; causal criteria, temporality, temporal",
+            "null hypothesis, Type I error and alpha level (multiple comparisons, random error/chance)",
+            "sample size and Type II error, beta, power",
+            "selection and interpretation of basic tests of statistical significance: chi-square; confidence",
+            "a priori vs post hoc analysis: subgroup analysis; error rate; affect types",
+            "selection, sampling bias",
+            "information bias: recall; ascertainment, ecologic fallacy, lack of blinding; loss to follow up",
+            "other threats to validity (eg, placebo effect)",
+            "generalizability (external validity); efficacy vs effectiveness"
+          ]
+        },
+        {
+          "name": "Clinical decision making, interpretation and use of evidence-based data and",
+          "topics": [
+            "application of study results to patient care and practice, including patient preferences and individualization"
+          ],
+          "subtopics": []
+        }
+      ]
+    },
+    {
+      "system": "Research ethics",
+      "categories": []
+    },
+    {
+      "system": "Social Sciences",
+      "categories": [
+        {
+          "name": "Communication and interpersonal skills, including health literacy and numeracy,",
+          "topics": [
+            "Patient interviewing, consultation, and interactions with the family (patient- centered communication skills)",
+            "Use of an interpreter or surrogate"
+          ],
+          "subtopics": [
+            "fostering the relationship (eg, expressing interest)",
+            "information gathering (eg, exploring patient's reaction to illness)",
+            "information provision (eg, providing information about working diagnosis)",
+            "making decisions (eg, eliciting patient's perspectives)",
+            "supporting emotions (eg, effective discussion with difficult patients)",
+            "enabling patient behaviors (eg, education and counseling)"
+          ]
+        },
+        {
+          "name": "Medical ethics and jurisprudence, include issues related to death and dying and",
+          "topics": [
+            "Consent/informed consent to treatment, permission to treat (full disclosure, risks and benefits, placebos,",
+            "Determination of medical decision-making capacity/informed refusal",
+            "Involuntary admission",
+            "Legal issues related to abuse (child, elder, and intimate partner)",
+            "Birth-related issues",
+            "Death and dying and palliative care",
+            "Physician–patient relationship (boundaries, confidentiality including HIPAA, privacy, truth-telling, other",
+            "Impaired physician, including duty to report impaired physician",
+            "Negligence/malpractice, including duty to report negligence and malpractice",
+            "Physician misconduct, including duty to report physician misconduct",
+            "Referrals",
+            "Cultural issues not otherwise coded"
+          ],
+          "subtopics": [
+            "child protective services, foster care, immunizations",
+            "legal requirements for reporting abuse or neglect/obligation to warn",
+            "life support",
+            "advance directive, health care proxy, advance care planning",
+            "brain death/diagnosing brain death/diagnosing death/pronouncing death",
+            "organ donation",
+            "hospice",
+            "pain management, including ethical issues related to death and dying",
+            "information sharing, counseling families",
+            "psychosocial and spiritual counseling, fear and loneliness"
+          ]
+        },
+        {
+          "name": "Systems-based practice (including health systems, public health, community,",
+          "topics": [
+            "Complexity/systems thinking"
+          ],
+          "subtopics": [
+            "Characteristics of a complex system and factors leading to complexity"
+          ]
+        },
+        {
+          "name": "▪ how complexity leads to error",
+          "topics": [],
+          "subtopics": [
+            "Health care/organizational behavior and culture"
+          ]
+        },
+        {
+          "name": "▪ environmental factors, workplace design and process; staffing; overcommitment, space,",
+          "topics": [
+            "Quality improvement"
+          ],
+          "subtopics": [
+            "Improvement science principles"
+          ]
+        },
+        {
+          "name": "▪ Variation and standardization: variation in process, practice; checklists, guidelines, and",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Reliability",
+          "topics": [],
+          "subtopics": [
+            "Specific models of quality improvement"
+          ]
+        },
+        {
+          "name": "▪ model for improvement: plan-do-study-act (PDSA), plan-do-check-act (PDCA)",
+          "topics": [],
+          "subtopics": [
+            "Quality measurement"
+          ]
+        },
+        {
+          "name": "▪ Structure, process, outcome, and balancing measures",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Measurement tools: run and control charts",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Development and application of system and individual quality measures",
+          "topics": [
+            "core measures; physician quality report system (PQRS); event reporting system"
+          ],
+          "subtopics": [
+            "Strategies to improve quality"
+          ]
+        },
+        {
+          "name": "▪ Role of leadership",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Principles of change management in quality improvement: specific strategies",
+          "topics": [],
+          "subtopics": [
+            "Attributes of high-quality health care"
+          ]
+        },
+        {
+          "name": "▪ High-value/cost-conscious care: overutilization of resources, including diagnostic testing,",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Equitable care: access",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Patient-centered care",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Timely care",
+          "topics": [
+            "Patient safety"
+          ],
+          "subtopics": [
+            "Patient safety principles"
+          ]
+        },
+        {
+          "name": "▪ Epidemiology of medical error",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Error categorization/definition: active vs latent errors; Swiss cheese model of error;",
+          "topics": [],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Causes of error",
+          "topics": [
+            "Patient factors: understanding of medication use; health literacy; economic",
+            "Physician factors: deficiency of knowledge; judgment errors; diagnostic errors;",
+            "Human factors (eg, cognitive, physical, environmental)"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ High reliability of organization (HRO) principles",
+          "topics": [
+            "change management and improvement science; conceptual models of"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Reporting and monitoring for errors",
+          "topics": [
+            "event reporting systems"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Communication with patients after adverse events (disclosure/transparency)",
+          "topics": [],
+          "subtopics": [
+            "Specific types of error"
+          ]
+        },
+        {
+          "name": "▪ Transitions of care errors (eg, handoff communication including shift-to-shift, transfer, and",
+          "topics": [
+            "handoffs and related communication; discontinuities; gaps; discharge; transfers"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Medication errors",
+          "topics": [
+            "Ordering, transcribing, dispensing, administration (wrong quantity, wrong route,",
+            "Medication reconciliation",
+            "Mathematical error"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Procedural errors",
+          "topics": [
+            "Universal protocol (time out); wrong patient; wrong site; wrong procedure",
+            "Retained foreign bodies",
+            "Injury to structures",
+            "Other errors"
+          ],
+          "subtopics": [
+            "paracentesis; bowel perforation; thoracentesis; pneumothorax; central",
+            "anesthesia-related errors; mathematical errors"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "▪ Health care-associated infections",
+      "categories": [
+        {
+          "name": "▪ Documentation errors",
+          "topics": [
+            "electronic medical record (including voice-recognition software errors); record"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Patient identification errors",
+          "topics": [
+            "Mislabeling: transfusion errors related to mislabeling",
+            "Verification/two identifiers: lack of dual validation, including verbal verification of"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Diagnostic errors",
+          "topics": [
+            "errors in diagnostic studies; misinterpretation"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Monitoring errors",
+          "topics": [
+            "Cardiac monitoring/telemetry",
+            "Drug monitoring (warfarin, antibiotics)"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Device-related errors",
+          "topics": [
+            "Malfunction"
+          ],
+          "subtopics": [
+            "Programming error",
+            "Incorrect use",
+            "Strategies to reduce error"
+          ]
+        },
+        {
+          "name": "▪ Human factors engineering",
+          "topics": [
+            "Situational awareness",
+            "Hierarchy of effective interventions: forcing function; visual cues"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Error analysis tools",
+          "topics": [
+            "error/near miss analysis; failure mode and effects analysis; morbidity and"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Safety behavior and culture at the individual level",
+          "topics": [
+            "hierarchy of health care, flattening hierarchy, speak up to power; afraid to report,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "▪ Teamwork",
+          "topics": [
+            "principles of highly effective teams; case management; physician teams,"
+          ],
+          "subtopics": []
+        },
+        {
+          "name": "Health care policy and economics",
+          "topics": [
+            "Health care policy"
+          ],
+          "subtopics": [
+            "Health care disparities"
+          ]
+        },
+        {
+          "name": "▪ race/ethnicity; numeracy/literacy; socioeconomic status; gender and sexual",
+          "topics": [],
+          "subtopics": [
+            "Access to care"
+          ]
+        },
+        {
+          "name": "▪ critical access systems or hospitals",
+          "topics": [
+            "Health care economics/Health care financing"
+          ],
+          "subtopics": [
+            "Social justice",
+            "Types of insurance"
+          ]
+        },
+        {
+          "name": "▪ Medicare, Medicaid, private insurance, self-pay",
+          "topics": [],
+          "subtopics": [
+            "Navigating the insurance system"
+          ]
+        },
+        {
+          "name": "▪ deductibles/co-pays; in-/out-of-network; preferred providers",
+          "topics": [],
+          "subtopics": [
+            "Reimbursement issues affecting safety and quality"
+          ]
+        },
+        {
+          "name": "▪ emergency services – EMTALA; pay-for-performance",
+          "topics": [],
+          "subtopics": []
+        }
+      ]
+    }
+  ]
+}

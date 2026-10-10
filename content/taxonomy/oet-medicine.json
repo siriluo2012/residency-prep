@@ -1,0 +1,26 @@
+{
+  "exam_id": "oet-medicine",
+  "name": "OET Medicine",
+  "description": "Occupational English Test for doctors. Accepted by ECFMG as proof of English proficiency (OET Medicine, taken at a test venue or OET@Home).",
+  "official_url": "https://oet.com/test/medicine",
+  "verified_at": "2026-10-08",
+  "facts": [
+    { "key": "ecfmg_requirement", "value": "ECFMG requires a minimum grade of B (350) in each of the four sub-tests, in a single sitting, within 2 years of application", "source_url": "https://www.ecfmg.org/certification-requirements-exams/english-proficiency/", "verified_at": "2026-10-08" },
+    { "key": "format", "value": "Listening ~45 min, Reading 60 min, Writing 45 min, Speaking ~20 min", "source_url": "https://oet.com/test/medicine", "verified_at": "2026-10-08" },
+    { "key": "scoring", "value": "Each sub-test scored 0-500, reported with letter grades A (450-500), B (350-440), C+ (300-340), C (200-290), D (100-190), E (0-90)", "source_url": "https://oet.com/results/understanding-your-results", "verified_at": "2026-10-08" }
+  ],
+  "topics": [
+    { "id": "listening", "name": "Listening", "children": [
+      { "id": "listening-a", "name": "Part A: consultation extracts (note completion)" },
+      { "id": "listening-b", "name": "Part B: short workplace extracts (MCQ)" },
+      { "id": "listening-c", "name": "Part C: presentations and interviews (MCQ)" }
+    ] },
+    { "id": "reading", "name": "Reading", "children": [
+      { "id": "reading-a", "name": "Part A: expeditious reading of four short texts" },
+      { "id": "reading-b", "name": "Part B: six short workplace texts (MCQ)" },
+      { "id": "reading-c", "name": "Part C: two long texts (MCQ)" }
+    ] },
+    { "id": "writing", "name": "Writing: referral/discharge/transfer letter", "aliases": ["referral letter", "discharge letter"] },
+    { "id": "speaking", "name": "Speaking: two role-plays", "aliases": ["role play", "consultation"] }
+  ]
+}

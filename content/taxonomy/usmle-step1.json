@@ -1,0 +1,76 @@
+{
+  "exam_id": "usmle-step1",
+  "name": "USMLE Step 1",
+  "description": "Foundational sciences applied to clinical vignettes. Pass/fail since January 2022.",
+  "official_url": "https://www.usmle.org/step-exams/step-1",
+  "verified_at": "2026-10-08",
+  "facts": [
+    { "key": "scoring", "value": "Pass/Fail", "source_url": "https://www.usmle.org/step-exams/step-1", "verified_at": "2026-10-08" },
+    { "key": "format", "value": "One-day exam, 7 blocks of up to 40 items, 60 minutes per block, up to 280 items; 8-hour session with 45 min break", "source_url": "https://www.usmle.org/step-exams/step-1", "verified_at": "2026-10-08" },
+    { "key": "fee_usd", "value": "695 (2026); +210 international test delivery surcharge outside US/Canada", "source_url": "https://www.usmle.org/apply-exams/fees", "verified_at": "2026-10-08" },
+    { "key": "attempt_limit", "value": "Max 4 attempts per Step; no more than 3 in 12 months; 4th attempt >= 12 months after 1st and >= 6 months after most recent", "source_url": "https://www.usmle.org/apply-exams/eligibility", "verified_at": "2026-10-08" }
+  ],
+  "topics": [
+    { "id": "human-development", "name": "Human Development", "weight_min_pct": 1, "weight_max_pct": 3, "aliases": ["development", "aging", "normal growth"] },
+    {
+      "id": "blood-immune", "name": "Blood & Lymphoreticular and Immune Systems", "weight_min_pct": 9, "weight_max_pct": 13,
+      "aliases": ["hematology", "immunology", "heme", "heme/onc", "lymph"],
+      "children": [
+        { "id": "hematology", "name": "Hematology and coagulation", "aliases": ["anemia", "coagulation", "hemostasis", "leukemia", "lymphoma"] },
+        { "id": "immunology", "name": "Immunology", "aliases": ["hypersensitivity", "immunodeficiency", "transplant", "autoimmunity"] }
+      ]
+    },
+    {
+      "id": "behavioral-nervous", "name": "Behavioral Health & Nervous Systems/Special Senses", "weight_min_pct": 10, "weight_max_pct": 14,
+      "aliases": ["neuro", "neurology", "psych", "psychiatry", "behavioral science"],
+      "children": [
+        { "id": "neurology", "name": "Nervous system and special senses", "aliases": ["neuroanatomy", "neuro", "ophthalmology", "otology", "stroke", "seizure"] },
+        { "id": "behavioral-health", "name": "Behavioral health", "aliases": ["psych", "psychiatry", "substance use", "psychopharmacology"] }
+      ]
+    },
+    {
+      "id": "msk-skin", "name": "Musculoskeletal, Skin & Subcutaneous Tissue", "weight_min_pct": 8, "weight_max_pct": 12,
+      "aliases": ["musculoskeletal", "msk", "dermatology", "rheumatology", "connective tissue"],
+      "children": [
+        { "id": "musculoskeletal", "name": "Musculoskeletal and rheumatology", "aliases": ["bone", "joint", "muscle", "rheum"] },
+        { "id": "dermatology", "name": "Skin and connective tissue", "aliases": ["derm", "skin"] }
+      ]
+    },
+    {
+      "id": "cardiovascular", "name": "Cardiovascular System", "weight_min_pct": 7, "weight_max_pct": 11,
+      "aliases": ["cardio", "cardiology", "heart", "vascular"],
+      "children": [
+        { "id": "cardiovascular-physiology", "name": "Hemodynamics, cardiac cycle, ECG", "aliases": ["hemodynamics", "cardiac cycle", "wiggers", "ecg", "pressure-volume"] },
+        { "id": "cardiovascular-pathology", "name": "Cardiac and vascular pathology", "aliases": ["mi", "heart failure", "valvular", "vasculitis", "atherosclerosis", "murmur"] },
+        { "id": "cardiovascular-pharmacology", "name": "Cardiovascular pharmacology", "aliases": ["antiarrhythmic", "antihypertensive", "statin"] }
+      ]
+    },
+    {
+      "id": "respiratory-renal", "name": "Respiratory & Renal/Urinary Systems", "weight_min_pct": 11, "weight_max_pct": 15,
+      "aliases": ["respiratory", "pulmonary", "renal", "nephrology", "urinary"],
+      "children": [
+        { "id": "respiratory", "name": "Respiratory system", "aliases": ["pulmonary", "lung", "gas exchange", "ventilation", "asthma", "copd"] },
+        { "id": "renal", "name": "Renal and urinary system", "aliases": ["nephron", "kidney", "acid-base", "electrolytes", "glomerular", "diuretics"] }
+      ]
+    },
+    { "id": "gastrointestinal", "name": "Gastrointestinal System", "weight_min_pct": 6, "weight_max_pct": 10, "aliases": ["gi", "hepatology", "liver", "pancreas", "nutrition", "bilirubin"] },
+    {
+      "id": "reproductive-endocrine", "name": "Reproductive & Endocrine Systems", "weight_min_pct": 12, "weight_max_pct": 16,
+      "aliases": ["endocrine", "reproductive", "ob/gyn", "obstetrics", "gynecology"],
+      "children": [
+        { "id": "endocrine", "name": "Endocrine system", "aliases": ["thyroid", "adrenal", "pituitary", "diabetes", "hormone"] },
+        { "id": "reproductive", "name": "Reproductive system", "aliases": ["pregnancy", "menstrual", "testis", "ovary", "breast", "embryology"] }
+      ]
+    },
+    { "id": "multisystem", "name": "Multisystem Processes & Disorders", "weight_min_pct": 8, "weight_max_pct": 12, "aliases": ["shock", "sepsis", "inflammation", "neoplasia", "toxicology", "infectious disease", "genetics", "biochemistry", "metabolism"],
+      "children": [
+        { "id": "biochemistry", "name": "Biochemistry, genetics, and cell biology", "aliases": ["biochem", "genetics", "metabolism", "enzyme", "cell cycle", "lysosomal"] },
+        { "id": "microbiology", "name": "Microbiology and infectious disease", "aliases": ["micro", "bacteria", "virus", "fungi", "parasite", "antibiotic", "antimicrobial"] },
+        { "id": "pharmacology-general", "name": "General pharmacology", "aliases": ["pharmacology", "pharmacokinetics", "pharmacodynamics", "autonomic"] },
+        { "id": "pathology-general", "name": "General pathology and physiology", "aliases": ["physiology", "inflammation", "neoplasia", "cell injury", "shock"] }
+      ]
+    },
+    { "id": "biostatistics", "name": "Biostatistics & Epidemiology/Population Health", "weight_min_pct": 4, "weight_max_pct": 6, "aliases": ["biostats", "epidemiology", "statistics", "sensitivity", "specificity", "study design"] },
+    { "id": "social-sciences", "name": "Social Sciences: Communication and Interpersonal Skills", "weight_min_pct": 6, "weight_max_pct": 9, "aliases": ["ethics", "communication", "professionalism", "patient safety", "legal"] }
+  ]
+}

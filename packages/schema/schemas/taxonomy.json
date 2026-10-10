@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/taxonomy.json",
+  "title": "ExamTaxonomy",
+  "type": "object",
+  "required": ["exam_id", "name", "topics"],
+  "properties": {
+    "exam_id": { "$ref": "common.json#/$defs/ExamId" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "official_url": { "type": "string" },
+    "verified_at": { "type": "string", "format": "date" },
+    "facts": {
+      "type": "array",
+      "description": "Public facts (fees, eligibility, format) with source URL",
+      "items": {
+        "type": "object",
+        "required": ["key", "value", "source_url", "verified_at"],
+        "properties": {
+          "key": { "type": "string" },
+          "value": { "type": "string" },
+          "source_url": { "type": "string" },
+          "verified_at": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Topic" }
+    }
+  },
+  "$defs": {
+    "Topic": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "weight_min_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "weight_max_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "aliases": { "type": "array", "items": { "type": "string" }, "description": "Alternate names used by sources, for classification" },
+        "children": { "type": "array", "items": { "$ref": "#/$defs/Topic" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

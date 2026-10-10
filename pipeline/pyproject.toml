@@ -1,0 +1,61 @@
+[project]
+name = "rp-pipeline"
+version = "0.1.0"
+description = "Residency Prep content pipeline: ingest, crawl, generate, qa, animate, oet, push"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.69",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.6",
+    "typer>=0.15",
+    "rich>=13.9",
+    "httpx>=0.28",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.3",
+    "jsonschema>=4.23",
+    "psycopg[binary]>=3.2",
+    "datasets>=3.0",
+    "numpy>=1.26",
+    "textstat>=0.7",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "pypdf>=6.19.0",
+    "referencing>=0.37.0",
+]
+
+[project.optional-dependencies]
+embed = ["sentence-transformers>=3.0"]
+render = ["playwright>=1.48"]
+dev = ["pytest>=8.3", "pytest-asyncio>=0.24", "ruff>=0.7", "mypy>=1.13"]
+
+[project.scripts]
+rp = "rp_pipeline.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rp_pipeline"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["UP047"]
+
+[tool.ruff.lint.per-file-ignores]
+# long string literals: prompts, log lines, test fixtures
+"tests/*" = ["E501"]
+"src/rp_pipeline/animate/prompts.py" = ["E501"]
+"src/rp_pipeline/animate/reference.py" = ["E501"]
+"src/rp_pipeline/animate/render_test.py" = ["E501"]
+"src/rp_pipeline/cli.py" = ["E501"]
+"src/rp_pipeline/crawl/__init__.py" = ["E501"]
+"src/rp_pipeline/ingest/medqa.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

@@ -1,0 +1,13 @@
+{
+  "$schema_name": "flashcard.json",
+  "id": "fc-example-0001",
+  "exam_id": "usmle-step1",
+  "topic_id": "cardiovascular",
+  "question_id": "q-example-0001",
+  "kind": "basic",
+  "front": "During which cardiac-cycle phase is LV volume constant while pressure rises?",
+  "back": "Isovolumetric contraction (between mitral closure and aortic opening).",
+  "tags": ["cardiac-cycle", "physiology"],
+  "provenance": { "source": "human", "license": "original" },
+  "status": "approved"
+}

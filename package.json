@@ -1,0 +1,28 @@
+{
+  "name": "residency-prep",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ad-free residency exam prep: USMLE Step 1, Step 2 CK, OET Medicine, ECFMG Certification",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "lint": "npm run lint -w apps/web",
+    "typecheck": "npm run typecheck -w apps/web",
+    "test": "npm run test -w apps/web",
+    "schema:validate": "node packages/schema/scripts/validate-examples.mjs",
+    "db:generate": "npm run db:generate -w apps/web",
+    "db:migrate": "npm run db:migrate -w apps/web",
+    "db:seed": "npm run db:seed -w apps/web",
+    "db:load-staged": "npm run db:load-staged -w apps/web",
+    "db:publish-demo": "npm run db:publish-demo -w apps/web",
+    "local:up": "bash scripts/dev-local.sh",
+    "pipeline": "cd pipeline && uv run rp"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

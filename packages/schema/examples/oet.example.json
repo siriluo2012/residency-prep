@@ -1,0 +1,22 @@
+{
+  "$schema_name": "oet.json",
+  "id": "oet-example-0001",
+  "subtest": "writing",
+  "title": "Referral: 58-year-old man with newly diagnosed type 2 diabetes",
+  "payload": {
+    "kind": "referral_letter",
+    "case_notes": "Patient: Mr John Carter, 58 M. Visits: 12/09/2026 polyuria, fatigue; HbA1c 8.9%; BMI 31. 26/09/2026 commenced metformin 500 mg bd; BP 148/92; lipids: LDL 3.9. Social: smoker 10/day, sedentary. Plan: refer to diabetes educator for lifestyle program and glucose monitoring education.",
+    "task_instruction": "Using the information in the case notes, write a letter of referral to the diabetes educator. Expand the relevant notes into complete sentences. Do not use note form. The body of the letter should be approximately 180-200 words.",
+    "recipient": "Ms Priya Nair, Diabetes Educator, Community Health Centre, 14 Elm Street, Riverside",
+    "word_limit": 200,
+    "key_content_points": [
+      "Reason for referral: education and lifestyle program",
+      "Diagnosis of type 2 diabetes with HbA1c 8.9%",
+      "Current medication metformin 500 mg twice daily",
+      "Cardiovascular risk factors: BP, LDL, smoking, BMI",
+      "Request for glucose monitoring education"
+    ]
+  },
+  "provenance": { "source": "claude", "license": "original", "ai_drafted": true },
+  "status": "draft"
+}

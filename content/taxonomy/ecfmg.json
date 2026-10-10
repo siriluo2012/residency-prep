@@ -1,0 +1,28 @@
+{
+  "exam_id": "ecfmg",
+  "name": "ECFMG Certification and Pathways",
+  "description": "Certification process for international medical graduates to enter US GME via the NRMP Match.",
+  "official_url": "https://www.ecfmg.org/certification/",
+  "verified_at": "2026-10-08",
+  "facts": [
+    { "key": "exam_requirements", "value": "Pass USMLE Step 1 and Step 2 CK", "source_url": "https://www.ecfmg.org/certification-requirements-exams/", "verified_at": "2026-10-08" },
+    { "key": "clinical_skills", "value": "Satisfy clinical and communication skills requirement via one of the ECFMG Pathways (1-6) plus OET Medicine", "source_url": "https://www.ecfmg.org/certification-pathways/", "verified_at": "2026-10-08" },
+    { "key": "medical_school", "value": "Medical school must be listed in the World Directory of Medical Schools with ECFMG sponsor note; from 2024 schools must be accredited by a WFME-recognized agency", "source_url": "https://www.ecfmg.org/accreditation/", "verified_at": "2026-10-08" },
+    { "key": "credential_verification", "value": "Primary-source verification of final medical diploma and transcript via EPIC/ECFMG", "source_url": "https://www.ecfmg.org/certification-requirements-exams/medical-education-credentials/", "verified_at": "2026-10-08" }
+  ],
+  "topics": [
+    { "id": "eligibility", "name": "Eligibility and USMLE/ECFMG identification number" },
+    { "id": "exams", "name": "Exam requirements (Step 1, Step 2 CK)" },
+    { "id": "pathways", "name": "Pathways 1-6 for clinical and communication skills", "children": [
+      { "id": "pathway-1", "name": "Pathway 1: licensed to practice in another country" },
+      { "id": "pathway-2", "name": "Pathway 2: OSCE from an acceptable medical school" },
+      { "id": "pathway-3", "name": "Pathway 3: school accredited by agency recognized by WFME" },
+      { "id": "pathway-4", "name": "Pathway 4: school accredited by agency with WFME recognition policy" },
+      { "id": "pathway-5", "name": "Pathway 5: school issues degree jointly with US school" },
+      { "id": "pathway-6", "name": "Pathway 6: evaluation of clinical patient encounters by licensed physicians" }
+    ] },
+    { "id": "oet", "name": "English proficiency (OET Medicine)" },
+    { "id": "credentials", "name": "Medical education credential verification" },
+    { "id": "match", "name": "ERAS, NRMP Match, and visa overview" }
+  ]
+}

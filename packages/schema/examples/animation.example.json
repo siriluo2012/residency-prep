@@ -1,0 +1,21 @@
+{
+  "$schema_name": "animation.json",
+  "id": "anim-example-0001",
+  "slug": "cardiac-cycle-wiggers",
+  "title": "The cardiac cycle: pressures, volume, and valves",
+  "concept": "Relate the four phases of the left-ventricular cycle to valve opening/closing and to the Wiggers pressure-volume tracings.",
+  "exam_id": "usmle-step1",
+  "topic_id": "cardiovascular",
+  "storyboard": [
+    { "scene": "isovolumetric-contraction", "start_ms": 0, "end_ms": 2000, "caption": "Mitral valve closes (S1). Pressure rises, volume constant." },
+    { "scene": "ejection", "start_ms": 2000, "end_ms": 5000, "caption": "Aortic valve opens. Blood ejected, volume falls." },
+    { "scene": "isovolumetric-relaxation", "start_ms": 5000, "end_ms": 7000, "caption": "Aortic valve closes (S2). Pressure falls, volume constant." },
+    { "scene": "filling", "start_ms": 7000, "end_ms": 10000, "caption": "Mitral valve opens. Ventricle fills at low pressure." }
+  ],
+  "component_source": "import React from 'react';\nexport const meta = { slug: 'cardiac-cycle-wiggers', title: 'Cardiac cycle', durationMs: 10000, sceneStartsMs: [0,2000,5000,7000], captions: ['a','b','c','d'], viewBox: { width: 640, height: 360 } };\nexport default function Anim() { return <svg viewBox='0 0 640 360' width='100%' />; }\n",
+  "duration_ms": 10000,
+  "loop": true,
+  "provenance": { "source": "claude", "license": "original", "ai_drafted": true, "generator_model": "claude-sonnet-4-5" },
+  "status": "draft",
+  "tier": "free"
+}

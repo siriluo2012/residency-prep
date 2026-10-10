@@ -1,0 +1,82 @@
+{
+  "source": "oet",
+  "crawled_at": "2026-10-09T03:21:17.970403+00:00",
+  "pages": [
+    {
+      "url": "https://oet.com/test",
+      "title": "OET Test | OET",
+      "headings": [
+        "OET Test",
+        "Who is the OET test for?",
+        "Ways you can take the OET Test"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "OET Test",
+          "level": 1,
+          "children": [
+            {
+              "text": "Who is the OET test for?",
+              "level": 2,
+              "children": []
+            },
+            {
+              "text": "Ways you can take the OET Test",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://oet.com/ready",
+      "title": "How to prepare for the OET Test and why is it important | OET",
+      "headings": [
+        "Get OET Ready",
+        "Not sure where to start?"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "Get OET Ready",
+          "level": 1,
+          "children": [
+            {
+              "text": "Not sure where to start?",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://oet.com/ready/sample-tests/oet-test-on-computer/medicine",
+      "title": "OET Test on Computer sample tests – Medicine | OET",
+      "headings": [
+        "OET Test on Computer sample tests – Medicine",
+        "Download Medicine sample test packs"
+      ],
+      "weight_rows": [],
+      "facts": [],
+      "outline": [
+        {
+          "text": "OET Test on Computer sample tests – Medicine",
+          "level": 1,
+          "children": [
+            {
+              "text": "Download Medicine sample test packs",
+              "level": 2,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blueprint_diff": []
+}

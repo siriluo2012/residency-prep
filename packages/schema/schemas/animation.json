@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/animation.json",
+  "title": "AnimatedConcept",
+  "description": "A code-based looping animation that explains one medical concept. The component must satisfy the AnimatedConcept contract in packages/schema/src/animation-contract.ts.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "concept",
+    "exam_id",
+    "topic_id",
+    "storyboard",
+    "component_source",
+    "duration_ms",
+    "provenance",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "concept": {
+      "type": "string",
+      "description": "One-paragraph statement of what the viewer should understand after watching"
+    },
+    "exam_id": {
+      "$ref": "common.json#/$defs/ExamId"
+    },
+    "topic_id": {
+      "type": "string"
+    },
+    "question_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "storyboard": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "scene",
+          "start_ms",
+          "end_ms",
+          "caption"
+        ],
+        "properties": {
+          "scene": {
+            "type": "string"
+          },
+          "start_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "caption": {
+            "type": "string"
+          },
+          "visual": {
+            "type": "string",
+            "description": "What moves/changes in this scene"
+          }
+        }
+      }
+    },
+    "component_source": {
+      "type": "string",
+      "description": "TSX source of a default-exported React component implementing AnimatedConceptProps. No imports other than react, framer-motion."
+    },
+    "duration_ms": {
+      "type": "integer",
+      "minimum": 3000,
+      "maximum": 30000
+    },
+    "loop": {
+      "type": "boolean",
+      "default": true
+    },
+    "static_fallback_svg": {
+      "type": "string",
+      "description": "SVG string shown with prefers-reduced-motion or before hydration"
+    },
+    "preview_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "export_urls": {
+      "type": "object",
+      "properties": {
+        "webm": {
+          "type": "string"
+        },
+        "gif": {
+          "type": "string"
+        },
+        "mp4": {
+          "type": "string"
+        }
+      }
+    },
+    "render_test": {
+      "type": "object",
+      "properties": {
+        "passed": {
+          "type": "boolean"
+        },
+        "scenes_captured": {
+          "type": "integer"
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tested_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "provenance": {
+      "$ref": "common.json#/$defs/Provenance"
+    },
+    "status": {
+      "$ref": "common.json#/$defs/ContentStatus"
+    },
+    "tier": {
+      "$ref": "common.json#/$defs/Tier"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

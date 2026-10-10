@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://residencyprep.dev/schema/flashcard.json",
+  "title": "Flashcard",
+  "type": "object",
+  "required": [
+    "id",
+    "exam_id",
+    "topic_id",
+    "front",
+    "back",
+    "provenance",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "exam_id": {
+      "$ref": "common.json#/$defs/ExamId"
+    },
+    "topic_id": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Question this card was derived from"
+    },
+    "animation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "basic",
+        "cloze",
+        "image_occlusion"
+      ],
+      "default": "basic"
+    },
+    "front": {
+      "type": "string",
+      "minLength": 3
+    },
+    "back": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cloze_text": {
+      "type": "string",
+      "description": "For kind=cloze: text with {{c1::...}} markers"
+    },
+    "extra": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/Media"
+      }
+    },
+    "provenance": {
+      "$ref": "common.json#/$defs/Provenance"
+    },
+    "status": {
+      "$ref": "common.json#/$defs/ContentStatus"
+    },
+    "tier": {
+      "$ref": "common.json#/$defs/Tier"
+    },
+    "qa": {
+      "type": "object"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

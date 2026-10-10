@@ -1,0 +1,445 @@
+# First batch of high-yield concepts that are inherently dynamic or spatial and benefit from animation.
+# Each entry becomes one AnimatedConcept via `rp animate concepts`. Order is priority order.
+# Fields: slug, title, exam, topic, concept (what the learner should understand), scenes (storyboard hints),
+# duration_ms (3000-30000), tags.
+
+- slug: cardiac-cycle-wiggers
+  title: "Cardiac cycle: pressures, volume, and valve events"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Relate the four phases of the left-ventricular cycle to mitral/aortic valve opening and closing, heart sounds, and the Wiggers pressure and volume tracings.
+  scenes: [isovolumetric contraction with S1, ejection, isovolumetric relaxation with S2, filling incl. atrial kick]
+  duration_ms: 12000
+  tags: [cardiology, physiology, wiggers]
+
+- slug: pressure-volume-loop
+  title: "Left ventricular pressure-volume loop"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Trace the PV loop counter-clockwise, identify EDV, ESV, stroke volume and how preload, afterload and contractility change the loop.
+  scenes: [baseline loop traced, increased preload, increased afterload, increased contractility]
+  duration_ms: 14000
+  tags: [cardiology, physiology]
+
+- slug: nephron-segment-handling
+  title: "Nephron: where sodium, water, and solutes are handled"
+  exam: usmle-step1
+  topic: renal
+  concept: Follow filtrate along the nephron and see which transporters act in each segment and which diuretics block them.
+  scenes: [proximal tubule, thin descending and ascending limbs, thick ascending limb with NKCC2, distal tubule with NCC, collecting duct with ENaC and aquaporins]
+  duration_ms: 16000
+  tags: [renal, physiology, diuretics]
+
+- slug: countercurrent-multiplier
+  title: "Countercurrent multiplication in the loop of Henle"
+  exam: usmle-step1
+  topic: renal
+  concept: Show how active NaCl transport in the ascending limb and water permeability of the descending limb build the medullary gradient over successive cycles.
+  scenes: [single effect, flow shifts fluid, repeated cycles build gradient, ADH effect on collecting duct]
+  duration_ms: 14000
+  tags: [renal, physiology]
+
+- slug: coagulation-cascade
+  title: "Coagulation cascade: intrinsic, extrinsic, common pathways"
+  exam: usmle-step1
+  topic: hematology
+  concept: See the sequence of factor activation, where PT and PTT measure, and where warfarin, heparin and DOACs act.
+  scenes: [extrinsic pathway TF and VIIa, intrinsic pathway XII to IX, common pathway X to thrombin to fibrin, drug targets overlay]
+  duration_ms: 14000
+  tags: [hematology, pharmacology]
+
+- slug: action-potential-cardiac
+  title: "Ventricular myocyte action potential"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Phases 0-4 with the ion currents responsible and the antiarrhythmic classes that act on each.
+  scenes: [phase 0 Na influx, phase 1 transient K, phase 2 plateau Ca in and K out, phase 3 K efflux, phase 4 resting]
+  duration_ms: 12000
+  tags: [cardiology, physiology, antiarrhythmics]
+
+- slug: sa-node-pacemaker-potential
+  title: "SA node pacemaker potential"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Funny current, T- and L-type calcium currents and how sympathetic and parasympathetic tone change slope and rate.
+  scenes: [phase 4 funny current, phase 0 Ca influx, phase 3 repolarization, autonomic modulation]
+  duration_ms: 10000
+  tags: [cardiology, physiology]
+
+- slug: oxygen-hemoglobin-curve
+  title: "Oxygen-hemoglobin dissociation curve shifts"
+  exam: usmle-step1
+  topic: respiratory
+  concept: Why the curve is sigmoid and how CO2, H+, temperature, 2,3-BPG and CO shift it; P50 as the marker.
+  scenes: [sigmoid curve and P50, right shift causes, left shift causes, CO poisoning shape change]
+  duration_ms: 12000
+  tags: [respiratory, physiology]
+
+- slug: ventilation-perfusion-matching
+  title: "V/Q matching from apex to base"
+  exam: usmle-step1
+  topic: respiratory
+  concept: Gradients of ventilation and perfusion down the upright lung, V/Q ratio, and extremes of shunt and dead space.
+  scenes: [apex vs base ventilation, apex vs base perfusion, V/Q ratio gradient, shunt vs dead space]
+  duration_ms: 12000
+  tags: [respiratory, physiology]
+
+- slug: lung-volumes-spirometry
+  title: "Lung volumes and capacities on a spirogram"
+  exam: usmle-step1
+  topic: respiratory
+  concept: Tidal volume, reserves, residual volume and the derived capacities, with obstructive vs restrictive patterns.
+  scenes: [normal breathing, maximal inspiration and expiration, capacities labelled, obstructive vs restrictive]
+  duration_ms: 12000
+  tags: [respiratory, physiology]
+
+- slug: starling-forces-capillary
+  title: "Starling forces across a capillary"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Hydrostatic and oncotic pressures along the capillary and the four classic edema mechanisms.
+  scenes: [arteriolar end filtration, venous end absorption, increased hydrostatic pressure, decreased oncotic pressure, lymphatic obstruction]
+  duration_ms: 12000
+  tags: [physiology, edema]
+
+- slug: baroreceptor-reflex
+  title: "Baroreceptor reflex"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Carotid sinus and aortic arch firing, the medullary pathway, and the sympathetic/parasympathetic responses to a fall or rise in blood pressure.
+  scenes: [normal firing, hypotension decreases firing, sympathetic output rises, blood pressure restored]
+  duration_ms: 10000
+  tags: [cardiology, physiology, autonomics]
+
+- slug: renin-angiotensin-aldosterone
+  title: "Renin-angiotensin-aldosterone system"
+  exam: usmle-step1
+  topic: renal
+  concept: Triggers for renin release, the conversion steps, effects of angiotensin II and aldosterone, and where ACE inhibitors, ARBs and spironolactone act.
+  scenes: [renin release triggers, angiotensinogen to Ang I to Ang II, Ang II effects, aldosterone effects and drug targets]
+  duration_ms: 14000
+  tags: [renal, endocrine, pharmacology]
+
+- slug: acid-base-nomogram
+  title: "Acid-base: reading pH, PCO2 and HCO3 together"
+  exam: usmle-step1
+  topic: renal
+  concept: Primary disorders, expected compensation and how to spot mixed disorders on a Davenport-style diagram.
+  scenes: [normal point, metabolic acidosis with respiratory compensation, respiratory acidosis with renal compensation, mixed disorder]
+  duration_ms: 14000
+  tags: [renal, acid-base]
+
+- slug: glomerular-filtration-forces
+  title: "GFR, RPF and the effects of afferent and efferent constriction"
+  exam: usmle-step1
+  topic: renal
+  concept: How changes in afferent and efferent arteriolar tone move GFR, RPF and filtration fraction; NSAID and ACE inhibitor effects.
+  scenes: [baseline flow, afferent constriction, efferent constriction, NSAID vs ACE inhibitor]
+  duration_ms: 12000
+  tags: [renal, physiology]
+
+- slug: cell-cycle-checkpoints
+  title: "Cell cycle checkpoints and tumor suppressors"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: G1/S, G2/M and spindle checkpoints, cyclin-CDK pairs, and where p53 and Rb act.
+  scenes: [G1 and cyclin D CDK4/6, Rb phosphorylation releases E2F, S and G2, M with spindle checkpoint, p53 arrest]
+  duration_ms: 14000
+  tags: [cell biology, oncology]
+
+- slug: glycolysis-regulation
+  title: "Glycolysis: irreversible steps and regulation"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: The three irreversible enzymes, their allosteric regulators and the fates of pyruvate.
+  scenes: [hexokinase/glucokinase, PFK-1 regulation, pyruvate kinase, pyruvate fates]
+  duration_ms: 12000
+  tags: [biochemistry, metabolism]
+
+- slug: tca-cycle-flow
+  title: "TCA cycle: carbons, NADH and anaplerosis"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: Follow acetyl-CoA carbons through the cycle, count reducing equivalents and see the entry points for amino acids.
+  scenes: [citrate formation, decarboxylations, succinyl-CoA to oxaloacetate, energy yield summary]
+  duration_ms: 12000
+  tags: [biochemistry, metabolism]
+
+- slug: electron-transport-chain
+  title: "Electron transport chain and oxidative phosphorylation"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: Complexes I-IV, proton pumping, ATP synthase and where cyanide, CO, oligomycin and uncouplers act.
+  scenes: [NADH to complex I, proton gradient builds, ATP synthase, inhibitors and uncouplers]
+  duration_ms: 12000
+  tags: [biochemistry, toxicology]
+
+- slug: dna-replication-fork
+  title: "DNA replication fork"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: Leading and lagging strand synthesis, Okazaki fragments, primase, ligase and proofreading.
+  scenes: [helicase opens fork, leading strand continuous, lagging strand fragments, ligase seals]
+  duration_ms: 12000
+  tags: [molecular biology]
+
+- slug: translation-ribosome
+  title: "Translation: initiation, elongation, termination"
+  exam: usmle-step1
+  topic: biochemistry
+  concept: A, P and E sites, tRNA movement, and where antibiotics like aminoglycosides, tetracyclines, macrolides and chloramphenicol act.
+  scenes: [initiation at AUG, elongation cycle, translocation, termination, antibiotic targets]
+  duration_ms: 14000
+  tags: [molecular biology, antibiotics]
+
+- slug: neuromuscular-junction
+  title: "Neuromuscular junction transmission"
+  exam: usmle-step1
+  topic: neurology
+  concept: Action potential arrival, calcium entry, ACh release, nicotinic receptor activation, acetylcholinesterase, and the lesions in myasthenia gravis and Lambert-Eaton.
+  scenes: [AP and Ca influx, vesicle release, receptor activation and end-plate potential, AChE breakdown, MG vs LEMS]
+  duration_ms: 14000
+  tags: [neurology, pharmacology]
+
+- slug: neuron-action-potential
+  title: "Neuronal action potential and refractory periods"
+  exam: usmle-step1
+  topic: neurology
+  concept: Voltage-gated Na and K channel states through depolarization and repolarization, and why refractory periods exist.
+  scenes: [resting potential, threshold and Na influx, K efflux, hyperpolarization and channel recovery]
+  duration_ms: 10000
+  tags: [neurology, physiology]
+
+- slug: saltatory-conduction
+  title: "Saltatory conduction and demyelination"
+  exam: usmle-step1
+  topic: neurology
+  concept: Why myelin speeds conduction and what happens to signal propagation in demyelinating disease.
+  scenes: [myelinated axon jumping between nodes, unmyelinated continuous conduction, demyelinated segment failing]
+  duration_ms: 10000
+  tags: [neurology]
+
+- slug: spinal-cord-tracts
+  title: "Spinal cord tracts: where they cross"
+  exam: usmle-step1
+  topic: neurology
+  concept: Dorsal columns, spinothalamic and corticospinal tracts with their decussation levels, explaining Brown-Sequard findings.
+  scenes: [dorsal column path, spinothalamic path, corticospinal path, hemisection deficits]
+  duration_ms: 14000
+  tags: [neuroanatomy]
+
+- slug: visual-pathway-lesions
+  title: "Visual pathway and field defects"
+  exam: usmle-step1
+  topic: neurology
+  concept: Retina to occipital cortex with the optic chiasm crossing, and the field defect produced by lesions at each site.
+  scenes: [normal pathway, optic nerve lesion, chiasm lesion, optic tract lesion, Meyer loop lesion]
+  duration_ms: 14000
+  tags: [neuroanatomy, ophthalmology]
+
+- slug: csf-circulation
+  title: "CSF production, circulation and absorption"
+  exam: usmle-step1
+  topic: neurology
+  concept: Choroid plexus to arachnoid granulations through the ventricles and foramina; communicating vs non-communicating hydrocephalus.
+  scenes: [lateral ventricles, foramen of Monro and third ventricle, aqueduct and fourth ventricle, subarachnoid space and absorption, obstruction sites]
+  duration_ms: 12000
+  tags: [neuroanatomy]
+
+- slug: hypothalamic-pituitary-axes
+  title: "Hypothalamic-pituitary feedback loops"
+  exam: usmle-step1
+  topic: endocrine
+  concept: Releasing hormones, anterior pituitary hormones, target glands and negative feedback, with primary vs secondary disorder patterns.
+  scenes: [TRH-TSH-T4 loop, CRH-ACTH-cortisol loop, negative feedback, primary vs secondary failure]
+  duration_ms: 14000
+  tags: [endocrine]
+
+- slug: insulin-glucagon-fed-fasting
+  title: "Fed vs fasting state: insulin and glucagon"
+  exam: usmle-step1
+  topic: endocrine
+  concept: Hormone levels and the metabolic pathways switched on in liver, muscle and fat across the fed-fasting-starvation timeline.
+  scenes: [fed state insulin effects, early fasting glycogenolysis, prolonged fasting gluconeogenesis and ketogenesis]
+  duration_ms: 12000
+  tags: [endocrine, metabolism]
+
+- slug: adrenal-steroid-synthesis
+  title: "Adrenal steroidogenesis and enzyme deficiencies"
+  exam: usmle-step1
+  topic: endocrine
+  concept: Zones of the cortex, the synthesis pathway, and the hormone pattern in 21-, 11β- and 17α-hydroxylase deficiency.
+  scenes: [zones and products, pathway from cholesterol, 21-hydroxylase block, 11-beta block, 17-alpha block]
+  duration_ms: 14000
+  tags: [endocrine]
+
+- slug: thyroid-hormone-synthesis
+  title: "Thyroid hormone synthesis"
+  exam: usmle-step1
+  topic: endocrine
+  concept: Iodide trapping, organification, coupling, release and peripheral conversion, with the drug targets along the way.
+  scenes: [iodide uptake via NIS, TPO organification, coupling to T3 and T4, release and deiodination, drug targets]
+  duration_ms: 12000
+  tags: [endocrine, pharmacology]
+
+- slug: menstrual-cycle-hormones
+  title: "Menstrual cycle: hormones, follicle and endometrium"
+  exam: usmle-step1
+  topic: reproductive
+  concept: FSH, LH, estrogen and progesterone over 28 days aligned with follicular development and endometrial phases.
+  scenes: [follicular phase, LH surge and ovulation, luteal phase, menstruation]
+  duration_ms: 14000
+  tags: [reproductive, endocrine]
+
+- slug: fetal-circulation-shunts
+  title: "Fetal circulation and the shunts that close at birth"
+  exam: usmle-step1
+  topic: reproductive
+  concept: Blood flow from placenta through ductus venosus, foramen ovale and ductus arteriosus, and the pressure changes at first breath.
+  scenes: [umbilical vein to ductus venosus, foramen ovale right to left, ductus arteriosus, closure at birth]
+  duration_ms: 12000
+  tags: [embryology, cardiology]
+
+- slug: heart-embryology-septation
+  title: "Cardiac septation and common defects"
+  exam: usmle-step1
+  topic: reproductive
+  concept: Formation of the atrial and ventricular septa and the spiral aorticopulmonary septum, mapping to ASD, VSD, tetralogy and transposition.
+  scenes: [atrial septum primum and secundum, ventricular septum, aorticopulmonary septum spiral, defects overlay]
+  duration_ms: 14000
+  tags: [embryology, cardiology]
+
+- slug: bilirubin-metabolism
+  title: "Bilirubin metabolism"
+  exam: usmle-step1
+  topic: gastrointestinal
+  concept: Heme to unconjugated bilirubin, hepatic conjugation, biliary excretion and enterohepatic circulation, with where each jaundice type arises.
+  scenes: [heme breakdown, albumin transport, UGT conjugation, bile excretion and urobilinogen, prehepatic vs hepatic vs posthepatic]
+  duration_ms: 14000
+  tags: [gastroenterology, hepatology]
+
+- slug: portal-venous-system
+  title: "Portal venous system and portosystemic anastomoses"
+  exam: usmle-step1
+  topic: gastrointestinal
+  concept: Tributaries of the portal vein and the collateral routes that open in portal hypertension.
+  scenes: [portal vein tributaries, esophageal varices route, caput medusae route, hemorrhoid route]
+  duration_ms: 12000
+  tags: [gastroenterology, anatomy]
+
+- slug: gastric-acid-secretion
+  title: "Parietal cell acid secretion and its regulation"
+  exam: usmle-step1
+  topic: gastrointestinal
+  concept: Gastrin, histamine and ACh inputs, the proton pump, and where H2 blockers and PPIs act.
+  scenes: [stimuli converge, H+/K+ ATPase pumps acid, somatostatin and prostaglandin inhibition, drug targets]
+  duration_ms: 10000
+  tags: [gastroenterology, pharmacology]
+
+- slug: hypersensitivity-types
+  title: "Hypersensitivity reactions type I-IV"
+  exam: usmle-step1
+  topic: immunology
+  concept: The cells and mediators of each type, with time course and classic examples.
+  scenes: [type I IgE mast cell, type II antibody on cell, type III immune complex, type IV T cell delayed]
+  duration_ms: 14000
+  tags: [immunology]
+
+- slug: t-cell-activation
+  title: "T cell activation: two signals and co-stimulation"
+  exam: usmle-step1
+  topic: immunology
+  concept: MHC presentation, TCR recognition, CD28/B7 co-stimulation, cytokine signal and where checkpoint inhibitors act.
+  scenes: [antigen presentation, signal 1 TCR, signal 2 CD28-B7, cytokine signal 3, CTLA-4 and PD-1 checkpoints]
+  duration_ms: 12000
+  tags: [immunology, oncology]
+
+- slug: complement-cascade
+  title: "Complement activation pathways"
+  exam: usmle-step1
+  topic: immunology
+  concept: Classical, lectin and alternative pathways converging on C3 and the membrane attack complex.
+  scenes: [classical pathway, lectin and alternative, C3 convertase, MAC formation and regulators]
+  duration_ms: 12000
+  tags: [immunology]
+
+- slug: hemoglobin-synthesis-porphyrias
+  title: "Heme synthesis and the porphyrias"
+  exam: usmle-step1
+  topic: hematology
+  concept: The heme pathway steps and the enzyme blocks in lead poisoning, AIP and PCT.
+  scenes: [ALA synthase step, ALA dehydratase and ferrochelatase lead block, PBG deaminase AIP, uroporphyrinogen decarboxylase PCT]
+  duration_ms: 12000
+  tags: [hematology, biochemistry]
+
+- slug: cardiac-conduction-ecg
+  title: "Conduction system and the ECG waveform"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Impulse from SA node through AV node, bundle of His and Purkinje fibers, synchronized with the P wave, PR interval, QRS and T wave.
+  scenes: [SA node fires and P wave, AV delay and PR segment, ventricular depolarization QRS, repolarization T wave]
+  duration_ms: 10000
+  tags: [cardiology, ecg]
+
+- slug: av-block-patterns
+  title: "AV block: first degree, Mobitz I, Mobitz II, complete"
+  exam: usmle-step1
+  topic: cardiovascular-physiology
+  concept: Watch PR intervals and dropped beats evolve across the four block types on a rhythm strip.
+  scenes: [first degree long PR, Mobitz I lengthening then drop, Mobitz II sudden drop, third degree dissociation]
+  duration_ms: 14000
+  tags: [cardiology, ecg]
+
+- slug: murmur-timing
+  title: "Systolic and diastolic murmurs on the cardiac cycle"
+  exam: usmle-step1
+  topic: cardiovascular-pathology
+  concept: Where aortic stenosis, mitral regurgitation, aortic regurgitation and mitral stenosis murmurs sit relative to S1 and S2.
+  scenes: [S1 S2 timing, aortic stenosis crescendo-decrescendo, mitral regurgitation holosystolic, aortic regurgitation early diastolic, mitral stenosis opening snap]
+  duration_ms: 14000
+  tags: [cardiology, murmurs]
+
+- slug: atherosclerosis-plaque
+  title: "Atherosclerotic plaque formation and rupture"
+  exam: usmle-step1
+  topic: cardiovascular-pathology
+  concept: Endothelial injury, LDL entry and oxidation, foam cells, fibrous cap, and plaque rupture with thrombosis.
+  scenes: [endothelial injury, LDL and macrophages form foam cells, fibrous cap, rupture and thrombus]
+  duration_ms: 12000
+  tags: [cardiology, pathology]
+
+- slug: shock-types-hemodynamics
+  title: "Shock types: preload, cardiac output, SVR"
+  exam: usmle-step1
+  topic: pathology-general
+  concept: How hypovolemic, cardiogenic, obstructive and distributive shock differ in PCWP, cardiac output and systemic vascular resistance.
+  scenes: [normal hemodynamics, hypovolemic, cardiogenic, obstructive, distributive]
+  duration_ms: 14000
+  tags: [critical care, physiology]
+
+- slug: sensitivity-specificity-cutoff
+  title: "Moving the test cutoff: sensitivity vs specificity"
+  exam: usmle-step1
+  topic: biostatistics
+  concept: Two overlapping distributions and a sliding threshold showing how TP, FP, TN and FN change, and the resulting ROC curve.
+  scenes: [two distributions and threshold, threshold moves left increases sensitivity, threshold moves right increases specificity, ROC curve traces]
+  duration_ms: 12000
+  tags: [biostatistics]
+
+- slug: pharmacokinetics-half-life
+  title: "Drug half-life, steady state, and loading doses"
+  exam: usmle-step1
+  topic: pharmacology-general
+  concept: Concentration-time curves for repeated dosing showing accumulation to steady state in 4-5 half-lives and the effect of a loading dose.
+  scenes: [single dose decay, repeated dosing accumulation, steady state reached, loading dose shortcut]
+  duration_ms: 12000
+  tags: [pharmacology]
+
+- slug: autonomic-receptors
+  title: "Autonomic receptors and their effects"
+  exam: usmle-step1
+  topic: pharmacology-general
+  concept: Sympathetic and parasympathetic outputs to heart, vessels, bronchi, pupil and bladder, with receptor subtypes and representative drugs.
+  scenes: [sympathetic chain and receptors, parasympathetic outflow, organ-by-organ effects, agonist and antagonist examples]
+  duration_ms: 14000
+  tags: [pharmacology, autonomics]

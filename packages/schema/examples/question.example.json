@@ -1,0 +1,25 @@
+{
+  "$schema_name": "question.json",
+  "id": "q-example-0001",
+  "exam_id": "usmle-step1",
+  "topic_id": "cardiovascular",
+  "topic_ids": ["cardiovascular-physiology"],
+  "question_type": "mechanism",
+  "stem": "A 24-year-old man undergoes cardiac catheterization as part of a research protocol. Pressure tracings are recorded simultaneously from the left ventricle and the aorta. During which phase of the cardiac cycle is the left ventricular volume constant while the ventricular pressure rises steeply?",
+  "options": [
+    { "label": "A", "text": "Isovolumetric contraction", "is_correct": true, "explanation": "After mitral closure and before aortic opening, all valves are shut; volume is fixed while pressure rises rapidly." },
+    { "label": "B", "text": "Rapid ejection", "is_correct": false, "explanation": "Aortic valve is open; volume falls quickly.", "misconception": "Confuses the steep pressure rise with ejection." },
+    { "label": "C", "text": "Isovolumetric relaxation", "is_correct": false, "explanation": "Volume is constant but pressure falls, not rises." },
+    { "label": "D", "text": "Rapid filling", "is_correct": false, "explanation": "Mitral valve open; volume increases at low pressure." },
+    { "label": "E", "text": "Atrial systole", "is_correct": false, "explanation": "Small late-diastolic volume increase at low pressure." }
+  ],
+  "answer_label": "A",
+  "explanation": "The cardiac cycle has two isovolumetric phases, during which all four valves are closed and ventricular volume cannot change. Isovolumetric contraction follows mitral valve closure (S1) and precedes aortic opening; pressure rises steeply because the ventricle contracts against closed valves. Isovolumetric relaxation is its mirror image in early diastole, with pressure falling at constant volume.",
+  "teaching_point": "Constant volume + rising pressure = isovolumetric contraction; constant volume + falling pressure = isovolumetric relaxation.",
+  "animation_worthiness": 5,
+  "difficulty": "easy",
+  "provenance": { "source": "human", "license": "original", "ai_drafted": false },
+  "status": "approved",
+  "tier": "free",
+  "created_at": "2026-10-08T00:00:00Z"
+}
